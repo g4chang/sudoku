@@ -49,3 +49,32 @@ def prop_FC(csp, newVar=None):
 
     return True, prune_list
 
+# GAC propagation
+def prop_FC(csp, newVar=None):
+    GACQ = []
+    prune_list = []
+    if newVar:
+        GACQ.extend(csp.get_cons_with_var(newVar))
+    else:
+        GACQ.extend(csp.get_all_cons())
+
+    while len(GACQ) > 0:
+        constraint = GACQ.pop(0)    # getting a constraint
+        for var in constraint.get_scope():
+            for domain in var.cur_domain():
+                if not constraint.has_support(var, domain):
+                    # Current domain does not work, Prune from domain
+                    prune_list.append((var, domain))
+                    var.prune_value(domain)
+
+                    if var.cur_domain_size() == 0:
+                        # DWO case
+                        return False, prune_list
+
+                    # Appened the new constraint if not on queue
+                    for constraint2 in csp.get_cons_with_var(var):
+                        if not constraint2 in GACQ:
+                            GACQ.append(constraint2)
+
+    return True, prune_list
+
