@@ -44,13 +44,13 @@ def prop_FC(csp, newVar=None):
                     uv.prune_value(dom)
 
             # Check for DWO
-            if uv.cur_dom_size() == 0:
+            if uv.cur_domain_size() == 0:
                 return False, prune_list
 
     return True, prune_list
 
 # GAC propagation
-def prop_FC(csp, newVar=None):
+def prop_GAC(csp, newVar=None):
     gacq = []
     prune_list = []
     if newVar:

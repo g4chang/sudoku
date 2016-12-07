@@ -1,4 +1,3 @@
- 
 import time
 import functools
 
@@ -198,6 +197,12 @@ class Variable:
         print("Var--\"{}\": Dom = {}, CurDom = {}".format(self.name, 
                                                              self.dom, 
                                                              self.curdom))
+    def __getitem__(self,row,col):
+        return self[row][col]
+
+    def __setitem__(self,row,col, val):
+            self[row][col] = val
+    
 class Constraint: 
     '''Class for defining constraints variable objects specifes an
        ordering over variables.  This ordering is used when calling
@@ -349,6 +354,10 @@ class CSP:
         '''return list of variables in the CSP'''
         return list(self.vars)
 
+    def get_all_unasgn_vars(self):
+        '''return list of unassigned variables in the CSP'''
+        return [v for v in self.vars if not v.is_assigned()]
+
     def print_all(self):
         print("CSP", self.name)
         print("   Variables = ", self.vars)
@@ -417,24 +426,6 @@ class BT:
                 var.unassign()
             var.restore_curdom()
 
-    def extractMRVvar(self):
-        '''Remove variable with minimum sized cur domain from list of
-           unassigned vars. Would be faster to use heap...but this is
-           not production code.
-        '''
-
-        md = -1
-        mv = None
-        for v in self.unasgn_vars:
-            if md < 0:
-                md = v.cur_domain_size()
-                mv = v
-            elif v.cur_domain_size() < md:
-                md = v.cur_domain_size()
-                mv = v
-        self.unasgn_vars.remove(mv)
-        return mv
-
     def restoreUnasgnVar(self, var):
         '''Add variable back to list of unassigned vars'''
         self.unasgn_vars.append(var)
@@ -469,7 +460,8 @@ class BT:
            values when it undoes a variable assignment.
 
            NOTE propagator SHOULD NOT prune a value that has already been 
-           pruned! Nor should it prune a value twice'''
+           pruned! Nor should it prune a value twice
+           '''
 
         self.clear_stats()
         stime = time.process_time()
@@ -517,7 +509,11 @@ class BT:
             #all variables assigned
             return True
         else:
-            var = self.extractMRVvar()
+            ##Figure out which variable to assign,
+            ##Then remove it from the list of unassigned vars
+            var = var_ord(self.csp)
+            self.unasgn_vars.remove(var) 
+
             if self.TRACE:
                 print('  ' * level, "bt_recurse var = ", var)
 

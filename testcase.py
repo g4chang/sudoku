@@ -1,5 +1,5 @@
 from sudoku_csp import *
-from propagators import *
+from propagator import *
 
 num_boards=244
 
@@ -329,19 +329,30 @@ all_boards = [g1_test_board_0, g1_test_board_1, g1_test_board_2,
               g1_test_board_236, g1_test_board_237, g1_test_board_238,
               g1_test_board_239, g1_test_board_240, g1_test_board_241,
               g1_test_board_242, g1_test_board_243]
-
+simple_board = [[1,3,0,2,0,0,7,4,0],
+                [0,2,5,0,1,0,0,0,0],
+                [4,8,0,0,6,0,0,5,0],
+                [0,0,0,7,8,0,2,1,0],
+                [5,0,0,0,9,0,3,7,0],
+                [9,0,0,0,3,0,0,0,5],
+                [0,4,0,0,0,6,8,9,0],
+                [0,5,3,0,0,1,4,0,0],
+                [6,9,7,8,4,3,5,2,1]
+                ]
+all_simple_boards = [simple_board]
 
 def print_sudo_soln(var_array):
     for row in var_array:
         print([var.get_assigned_value() for var in row])
 
 if __name__ == "__main__":
-    for b in all_boards:
+    for b in all_simple_boards:
         print("Solving board:")
         for row in b:
             print(row)
-        '''print("Using Model 1")
-        csp, var_array = sudoku_csp_model_1(b)
+        '''print("Using all diff")
+        csp, var_array = sudoku_csp_all_diff_model(b)
+        sudoku_csp_binary_model
         solver = BT(csp)
         print("=======================================================")
         print("GAC")
@@ -349,12 +360,13 @@ if __name__ == "__main__":
         print("Solution")
         print_sudo_soln(var_array)
 '''
-        print("Using Model 2")
-        csp, var_array = sudoku_csp_model_2(b)
+        print("Using Model all diff")
+        csp, var_array = sudoku_csp_all_diff_model(b)
         solver = BT(csp)
         print("=======================================================")
-        print("GAC")
-        solver.bt_search(prop_GAC)
+        print("FC")
+        solver.bt_search(prop_FC)
         print("Solution")
         print_sudo_soln(var_array)
         print("=======================================================")
+        
