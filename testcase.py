@@ -329,15 +329,15 @@ all_boards = [g1_test_board_0, g1_test_board_1, g1_test_board_2,
               g1_test_board_236, g1_test_board_237, g1_test_board_238,
               g1_test_board_239, g1_test_board_240, g1_test_board_241,
               g1_test_board_242, g1_test_board_243]
-simple_board = [[1,3,0,2,0,0,7,4,0],
-                [0,2,5,0,1,0,0,0,0],
-                [4,8,0,0,6,0,0,5,0],
-                [0,0,0,7,8,0,2,1,0],
-                [5,0,0,0,9,0,3,7,0],
-                [9,0,0,0,3,0,0,0,5],
-                [0,4,0,0,0,6,8,9,0],
-                [0,5,3,0,0,1,4,0,0],
-                [6,9,7,8,4,3,5,2,1]
+simple_board = [[0,8,0,0,0,0,0,5,0],
+                [0,4,7,0,0,2,0,6,9],
+                [0,0,0,0,0,0,0,0,2],
+                [0,3,6,0,8,0,1,0,0],
+                [0,0,0,0,4,0,2,9,0],
+                [0,0,0,0,5,0,0,0,0],
+                [0,0,0,0,0,0,6,0,0],
+                [5,0,0,0,0,0,0,0,3],
+                [1,0,9,0,7,6,0,0,0]
                 ]
 all_simple_boards = [simple_board]
 
@@ -361,11 +361,11 @@ if __name__ == "__main__":
         print_sudo_soln(var_array)
 '''
         print("Using Model all diff")
-        csp, var_array = sudoku_csp_all_diff_model(b)
+        csp, var_array = sudoku_csp_binary_model(b)
         solver = BT(csp)
         print("=======================================================")
-        print("FC")
-        solver.bt_search(prop_FC)
+        print("C")
+        solver.bt_search(prop_GAC)
         print("Solution")
         print_sudo_soln(var_array)
         print("=======================================================")
