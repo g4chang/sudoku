@@ -1,5 +1,5 @@
 To run the codes, navigate to testcase.py's bottom part to find the configurations of the test case. 
-To change the propagator, enter either 'prop_BC', 'prop_FC', or 'prop_GAC' for the function 'solver.bt_search()' on line ___. The default is prop_GAC.
-To change the model to binarary or all different, set ___ to either __ or __ respectively.
-To change the 'difficulty' of the test case, set ___.
+To change the propagator, enter either 'BC', 'FC', or 'GAC' for the 'propagator' variable on line 1485. The default flag is GAC.
+To change the model to binarary or all different, set the variable 'model' to either 'binary' or 'all diff' respectively.
+To change the scope of the test cases, set the 'test_case_scope' variable to equal the array name of the array of test boards. "X_rows_filled_tests" are test cases where the board has partial solution of X rows filled in. This is used to lower the difficulty of the board to prevent some of the models or propagators from generating results. The 'up_to_X' test cases are all of the X_rows_filled_tests up to amount X. 'all_boards' will include all the predefined test cases we found online.
 The difficulty is defined by how close the initial board is compared to the solution of the board.
