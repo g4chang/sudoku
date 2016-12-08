@@ -1,0 +1,445 @@
+3.5.2 (default, Sep 14 2016, 16:12:48) 
+[GCC 4.8.4]
+Python Type "help", "copyright", "credits" or "license" for more information.
+[evaluate testcase.py]
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.005553609000000015
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  2     Var--V01  =  7     Var--V02  =  3     Var--V03  =  4     Var--V04  =  8     Var--V05  =  1     Var--V06  =  9     Var--V07  =  6     Var--V08  =  5     Var--V10  =  9     Var--V11  =  1     Var--V12  =  6     Var--V13  =  2     Var--V14  =  7     Var--V15  =  5     Var--V16  =  4     Var--V17  =  3     Var--V18  =  8     Var--V20  =  5     Var--V21  =  4     Var--V22  =  8     Var--V23  =  6     Var--V24  =  9     Var--V25  =  3     Var--V26  =  1     Var--V27  =  2     Var--V28  =  7     Var--V30  =  8     Var--V31  =  5     Var--V32  =  9     Var--V33  =  3     Var--V34  =  4     Var--V35  =  7     Var--V36  =  6     Var--V37  =  1     Var--V38  =  2     Var--V40  =  3     Var--V41  =  6     Var--V42  =  7     Var--V43  =  5     Var--V44  =  1     Var--V45  =  2     Var--V46  =  8     Var--V47  =  4     Var--V48  =  9     Var--V50  =  1     Var--V51  =  2     Var--V52  =  4     Var--V53  =  9     Var--V54  =  6     Var--V55  =  8     Var--V56  =  7     Var--V57  =  5     Var--V58  =  3     Var--V60  =  4     Var--V61  =  3     Var--V62  =  1     Var--V63  =  8     Var--V64  =  2     Var--V65  =  9     Var--V66  =  5     Var--V67  =  7     Var--V68  =  6     Var--V70  =  6     Var--V71  =  8     Var--V72  =  5     Var--V73  =  7     Var--V74  =  3     Var--V75  =  4     Var--V76  =  2     Var--V77  =  9     Var--V78  =  1     Var--V80  =  7     Var--V81  =  9     Var--V82  =  2     Var--V83  =  1     Var--V84  =  5     Var--V85  =  6     Var--V86  =  3     Var--V87  =  8     Var--V88  =  4     
+bt_search finished
+Search made 106 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.0054187679999999905
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  1     Var--V01  =  3     Var--V02  =  6     Var--V03  =  2     Var--V04  =  5     Var--V05  =  9     Var--V06  =  7     Var--V07  =  4     Var--V08  =  8     Var--V10  =  7     Var--V11  =  2     Var--V12  =  5     Var--V13  =  4     Var--V14  =  1     Var--V15  =  8     Var--V16  =  9     Var--V17  =  3     Var--V18  =  6     Var--V20  =  4     Var--V21  =  8     Var--V22  =  9     Var--V23  =  3     Var--V24  =  6     Var--V25  =  7     Var--V26  =  1     Var--V27  =  5     Var--V28  =  2     Var--V30  =  3     Var--V31  =  6     Var--V32  =  4     Var--V33  =  7     Var--V34  =  8     Var--V35  =  5     Var--V36  =  2     Var--V37  =  1     Var--V38  =  9     Var--V40  =  5     Var--V41  =  1     Var--V42  =  8     Var--V43  =  6     Var--V44  =  9     Var--V45  =  2     Var--V46  =  3     Var--V47  =  7     Var--V48  =  4     Var--V50  =  9     Var--V51  =  7     Var--V52  =  2     Var--V53  =  1     Var--V54  =  3     Var--V55  =  4     Var--V56  =  6     Var--V57  =  8     Var--V58  =  5     Var--V60  =  2     Var--V61  =  4     Var--V62  =  1     Var--V63  =  5     Var--V64  =  7     Var--V65  =  6     Var--V66  =  8     Var--V67  =  9     Var--V68  =  3     Var--V70  =  8     Var--V71  =  5     Var--V72  =  3     Var--V73  =  9     Var--V74  =  2     Var--V75  =  1     Var--V76  =  4     Var--V77  =  6     Var--V78  =  7     Var--V80  =  6     Var--V81  =  9     Var--V82  =  7     Var--V83  =  8     Var--V84  =  4     Var--V85  =  3     Var--V86  =  5     Var--V87  =  2     Var--V88  =  1     
+bt_search finished
+Search made 112 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSPsudoku_csp_binary_model unsolved. Has no solutions
+bt_search finished
+Search made 20 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.006197328000000002
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  9     Var--V01  =  2     Var--V02  =  7     Var--V03  =  4     Var--V04  =  8     Var--V05  =  6     Var--V06  =  5     Var--V07  =  1     Var--V08  =  3     Var--V10  =  1     Var--V11  =  4     Var--V12  =  5     Var--V13  =  3     Var--V14  =  9     Var--V15  =  2     Var--V16  =  6     Var--V17  =  8     Var--V18  =  7     Var--V20  =  8     Var--V21  =  6     Var--V22  =  3     Var--V23  =  7     Var--V24  =  1     Var--V25  =  5     Var--V26  =  4     Var--V27  =  2     Var--V28  =  9     Var--V30  =  2     Var--V31  =  8     Var--V32  =  6     Var--V33  =  5     Var--V34  =  4     Var--V35  =  9     Var--V36  =  3     Var--V37  =  7     Var--V38  =  1     Var--V40  =  7     Var--V41  =  9     Var--V42  =  1     Var--V43  =  8     Var--V44  =  6     Var--V45  =  3     Var--V46  =  2     Var--V47  =  4     Var--V48  =  5     Var--V50  =  3     Var--V51  =  5     Var--V52  =  4     Var--V53  =  1     Var--V54  =  2     Var--V55  =  7     Var--V56  =  8     Var--V57  =  9     Var--V58  =  6     Var--V60  =  6     Var--V61  =  1     Var--V62  =  2     Var--V63  =  9     Var--V64  =  3     Var--V65  =  8     Var--V66  =  7     Var--V67  =  5     Var--V68  =  4     Var--V70  =  5     Var--V71  =  3     Var--V72  =  9     Var--V73  =  2     Var--V74  =  7     Var--V75  =  4     Var--V76  =  1     Var--V77  =  6     Var--V78  =  8     Var--V80  =  4     Var--V81  =  7     Var--V82  =  8     Var--V83  =  6     Var--V84  =  5     Var--V85  =  1     Var--V86  =  9     Var--V87  =  3     Var--V88  =  2     
+bt_search finished
+Search made 105 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.005289126000000005
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  8     Var--V01  =  4     Var--V02  =  2     Var--V03  =  1     Var--V04  =  6     Var--V05  =  5     Var--V06  =  3     Var--V07  =  9     Var--V08  =  7     Var--V10  =  9     Var--V11  =  1     Var--V12  =  5     Var--V13  =  2     Var--V14  =  3     Var--V15  =  7     Var--V16  =  8     Var--V17  =  4     Var--V18  =  6     Var--V20  =  7     Var--V21  =  3     Var--V22  =  6     Var--V23  =  4     Var--V24  =  8     Var--V25  =  9     Var--V26  =  1     Var--V27  =  5     Var--V28  =  2     Var--V30  =  1     Var--V31  =  8     Var--V32  =  7     Var--V33  =  9     Var--V34  =  5     Var--V35  =  2     Var--V36  =  4     Var--V37  =  6     Var--V38  =  3     Var--V40  =  6     Var--V41  =  9     Var--V42  =  4     Var--V43  =  3     Var--V44  =  1     Var--V45  =  8     Var--V46  =  7     Var--V47  =  2     Var--V48  =  5     Var--V50  =  2     Var--V51  =  5     Var--V52  =  3     Var--V53  =  6     Var--V54  =  7     Var--V55  =  4     Var--V56  =  9     Var--V57  =  8     Var--V58  =  1     Var--V60  =  3     Var--V61  =  6     Var--V62  =  8     Var--V63  =  5     Var--V64  =  9     Var--V65  =  1     Var--V66  =  2     Var--V67  =  7     Var--V68  =  4     Var--V70  =  4     Var--V71  =  7     Var--V72  =  1     Var--V73  =  8     Var--V74  =  2     Var--V75  =  6     Var--V76  =  5     Var--V77  =  3     Var--V78  =  9     Var--V80  =  5     Var--V81  =  2     Var--V82  =  9     Var--V83  =  7     Var--V84  =  4     Var--V85  =  3     Var--V86  =  6     Var--V87  =  1     Var--V88  =  8     
+bt_search finished
+Search made 112 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.0062041069999999865
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  3     Var--V01  =  8     Var--V02  =  6     Var--V03  =  4     Var--V04  =  1     Var--V05  =  2     Var--V06  =  7     Var--V07  =  9     Var--V08  =  5     Var--V10  =  4     Var--V11  =  5     Var--V12  =  7     Var--V13  =  3     Var--V14  =  9     Var--V15  =  6     Var--V16  =  1     Var--V17  =  2     Var--V18  =  8     Var--V20  =  2     Var--V21  =  1     Var--V22  =  9     Var--V23  =  8     Var--V24  =  7     Var--V25  =  5     Var--V26  =  4     Var--V27  =  6     Var--V28  =  3     Var--V30  =  8     Var--V31  =  3     Var--V32  =  5     Var--V33  =  1     Var--V34  =  2     Var--V35  =  4     Var--V36  =  6     Var--V37  =  7     Var--V38  =  9     Var--V40  =  9     Var--V41  =  7     Var--V42  =  1     Var--V43  =  6     Var--V44  =  5     Var--V45  =  3     Var--V46  =  2     Var--V47  =  8     Var--V48  =  4     Var--V50  =  6     Var--V51  =  2     Var--V52  =  4     Var--V53  =  7     Var--V54  =  8     Var--V55  =  9     Var--V56  =  3     Var--V57  =  5     Var--V58  =  1     Var--V60  =  5     Var--V61  =  9     Var--V62  =  3     Var--V63  =  2     Var--V64  =  6     Var--V65  =  1     Var--V66  =  8     Var--V67  =  4     Var--V68  =  7     Var--V70  =  1     Var--V71  =  6     Var--V72  =  8     Var--V73  =  5     Var--V74  =  4     Var--V75  =  7     Var--V76  =  9     Var--V77  =  3     Var--V78  =  2     Var--V80  =  7     Var--V81  =  4     Var--V82  =  2     Var--V83  =  9     Var--V84  =  3     Var--V85  =  8     Var--V86  =  5     Var--V87  =  1     Var--V88  =  6     
+bt_search finished
+Search made 113 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.004918611999999989
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  2     Var--V01  =  8     Var--V02  =  1     Var--V03  =  9     Var--V04  =  6     Var--V05  =  4     Var--V06  =  3     Var--V07  =  5     Var--V08  =  7     Var--V10  =  3     Var--V11  =  4     Var--V12  =  7     Var--V13  =  5     Var--V14  =  1     Var--V15  =  2     Var--V16  =  8     Var--V17  =  6     Var--V18  =  9     Var--V20  =  6     Var--V21  =  9     Var--V22  =  5     Var--V23  =  7     Var--V24  =  3     Var--V25  =  8     Var--V26  =  4     Var--V27  =  1     Var--V28  =  2     Var--V30  =  9     Var--V31  =  3     Var--V32  =  6     Var--V33  =  2     Var--V34  =  8     Var--V35  =  7     Var--V36  =  1     Var--V37  =  4     Var--V38  =  5     Var--V40  =  7     Var--V41  =  5     Var--V42  =  8     Var--V43  =  1     Var--V44  =  4     Var--V45  =  3     Var--V46  =  2     Var--V47  =  9     Var--V48  =  6     Var--V50  =  4     Var--V51  =  1     Var--V52  =  2     Var--V53  =  6     Var--V54  =  5     Var--V55  =  9     Var--V56  =  7     Var--V57  =  3     Var--V58  =  8     Var--V60  =  8     Var--V61  =  7     Var--V62  =  3     Var--V63  =  4     Var--V64  =  9     Var--V65  =  5     Var--V66  =  6     Var--V67  =  2     Var--V68  =  1     Var--V70  =  5     Var--V71  =  6     Var--V72  =  4     Var--V73  =  8     Var--V74  =  2     Var--V75  =  1     Var--V76  =  9     Var--V77  =  7     Var--V78  =  3     Var--V80  =  1     Var--V81  =  2     Var--V82  =  9     Var--V83  =  3     Var--V84  =  7     Var--V85  =  6     Var--V86  =  5     Var--V87  =  8     Var--V88  =  4     
+bt_search finished
+Search made 98 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.005322411999999999
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  9     Var--V01  =  2     Var--V02  =  4     Var--V03  =  1     Var--V04  =  5     Var--V05  =  6     Var--V06  =  3     Var--V07  =  8     Var--V08  =  7     Var--V10  =  7     Var--V11  =  6     Var--V12  =  8     Var--V13  =  2     Var--V14  =  4     Var--V15  =  3     Var--V16  =  5     Var--V17  =  1     Var--V18  =  9     Var--V20  =  5     Var--V21  =  1     Var--V22  =  3     Var--V23  =  7     Var--V24  =  8     Var--V25  =  9     Var--V26  =  2     Var--V27  =  6     Var--V28  =  4     Var--V30  =  3     Var--V31  =  4     Var--V32  =  9     Var--V33  =  5     Var--V34  =  6     Var--V35  =  2     Var--V36  =  1     Var--V37  =  7     Var--V38  =  8     Var--V40  =  1     Var--V41  =  5     Var--V42  =  6     Var--V43  =  3     Var--V44  =  7     Var--V45  =  8     Var--V46  =  4     Var--V47  =  9     Var--V48  =  2     Var--V50  =  8     Var--V51  =  7     Var--V52  =  2     Var--V53  =  4     Var--V54  =  9     Var--V55  =  1     Var--V56  =  6     Var--V57  =  3     Var--V58  =  5     Var--V60  =  6     Var--V61  =  9     Var--V62  =  5     Var--V63  =  8     Var--V64  =  1     Var--V65  =  4     Var--V66  =  7     Var--V67  =  2     Var--V68  =  3     Var--V70  =  2     Var--V71  =  8     Var--V72  =  7     Var--V73  =  6     Var--V74  =  3     Var--V75  =  5     Var--V76  =  9     Var--V77  =  4     Var--V78  =  1     Var--V80  =  4     Var--V81  =  3     Var--V82  =  1     Var--V83  =  9     Var--V84  =  2     Var--V85  =  7     Var--V86  =  8     Var--V87  =  5     Var--V88  =  6     
+bt_search finished
+Search made 107 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.005314806000000005
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  9     Var--V01  =  3     Var--V02  =  7     Var--V03  =  6     Var--V04  =  4     Var--V05  =  8     Var--V06  =  5     Var--V07  =  1     Var--V08  =  2     Var--V10  =  2     Var--V11  =  5     Var--V12  =  8     Var--V13  =  3     Var--V14  =  7     Var--V15  =  1     Var--V16  =  4     Var--V17  =  6     Var--V18  =  9     Var--V20  =  4     Var--V21  =  6     Var--V22  =  1     Var--V23  =  2     Var--V24  =  5     Var--V25  =  9     Var--V26  =  3     Var--V27  =  7     Var--V28  =  8     Var--V30  =  1     Var--V31  =  2     Var--V32  =  3     Var--V33  =  7     Var--V34  =  6     Var--V35  =  4     Var--V36  =  8     Var--V37  =  9     Var--V38  =  5     Var--V40  =  5     Var--V41  =  4     Var--V42  =  9     Var--V43  =  8     Var--V44  =  1     Var--V45  =  3     Var--V46  =  7     Var--V47  =  2     Var--V48  =  6     Var--V50  =  7     Var--V51  =  8     Var--V52  =  6     Var--V53  =  5     Var--V54  =  9     Var--V55  =  2     Var--V56  =  1     Var--V57  =  3     Var--V58  =  4     Var--V60  =  6     Var--V61  =  9     Var--V62  =  5     Var--V63  =  4     Var--V64  =  3     Var--V65  =  7     Var--V66  =  2     Var--V67  =  8     Var--V68  =  1     Var--V70  =  8     Var--V71  =  7     Var--V72  =  4     Var--V73  =  1     Var--V74  =  2     Var--V75  =  6     Var--V76  =  9     Var--V77  =  5     Var--V78  =  3     Var--V80  =  3     Var--V81  =  1     Var--V82  =  2     Var--V83  =  9     Var--V84  =  8     Var--V85  =  5     Var--V86  =  6     Var--V87  =  4     Var--V88  =  7     
+bt_search finished
+Search made 106 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.00528467699999996
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  3     Var--V01  =  5     Var--V02  =  2     Var--V03  =  4     Var--V04  =  6     Var--V05  =  9     Var--V06  =  7     Var--V07  =  8     Var--V08  =  1     Var--V10  =  4     Var--V11  =  6     Var--V12  =  8     Var--V13  =  5     Var--V14  =  7     Var--V15  =  1     Var--V16  =  3     Var--V17  =  9     Var--V18  =  2     Var--V20  =  1     Var--V21  =  7     Var--V22  =  9     Var--V23  =  8     Var--V24  =  2     Var--V25  =  3     Var--V26  =  4     Var--V27  =  5     Var--V28  =  6     Var--V30  =  9     Var--V31  =  8     Var--V32  =  7     Var--V33  =  3     Var--V34  =  1     Var--V35  =  2     Var--V36  =  5     Var--V37  =  6     Var--V38  =  4     Var--V40  =  2     Var--V41  =  4     Var--V42  =  1     Var--V43  =  9     Var--V44  =  5     Var--V45  =  6     Var--V46  =  8     Var--V47  =  7     Var--V48  =  3     Var--V50  =  5     Var--V51  =  3     Var--V52  =  6     Var--V53  =  7     Var--V54  =  4     Var--V55  =  8     Var--V56  =  1     Var--V57  =  2     Var--V58  =  9     Var--V60  =  8     Var--V61  =  2     Var--V62  =  4     Var--V63  =  6     Var--V64  =  3     Var--V65  =  5     Var--V66  =  9     Var--V67  =  1     Var--V68  =  7     Var--V70  =  7     Var--V71  =  1     Var--V72  =  5     Var--V73  =  2     Var--V74  =  9     Var--V75  =  4     Var--V76  =  6     Var--V77  =  3     Var--V78  =  8     Var--V80  =  6     Var--V81  =  9     Var--V82  =  3     Var--V83  =  1     Var--V84  =  8     Var--V85  =  7     Var--V86  =  2     Var--V87  =  4     Var--V88  =  5     
+bt_search finished
+Search made 102 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.006856114999999996
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  2     Var--V01  =  7     Var--V02  =  3     Var--V03  =  4     Var--V04  =  8     Var--V05  =  1     Var--V06  =  9     Var--V07  =  6     Var--V08  =  5     Var--V10  =  9     Var--V11  =  1     Var--V12  =  6     Var--V13  =  2     Var--V14  =  7     Var--V15  =  5     Var--V16  =  4     Var--V17  =  3     Var--V18  =  8     Var--V20  =  5     Var--V21  =  4     Var--V22  =  8     Var--V23  =  6     Var--V24  =  9     Var--V25  =  3     Var--V26  =  1     Var--V27  =  2     Var--V28  =  7     Var--V30  =  8     Var--V31  =  5     Var--V32  =  9     Var--V33  =  3     Var--V34  =  4     Var--V35  =  7     Var--V36  =  6     Var--V37  =  1     Var--V38  =  2     Var--V40  =  3     Var--V41  =  6     Var--V42  =  7     Var--V43  =  5     Var--V44  =  1     Var--V45  =  2     Var--V46  =  8     Var--V47  =  4     Var--V48  =  9     Var--V50  =  1     Var--V51  =  2     Var--V52  =  4     Var--V53  =  9     Var--V54  =  6     Var--V55  =  8     Var--V56  =  7     Var--V57  =  5     Var--V58  =  3     Var--V60  =  4     Var--V61  =  3     Var--V62  =  1     Var--V63  =  8     Var--V64  =  2     Var--V65  =  9     Var--V66  =  5     Var--V67  =  7     Var--V68  =  6     Var--V70  =  6     Var--V71  =  8     Var--V72  =  5     Var--V73  =  7     Var--V74  =  3     Var--V75  =  4     Var--V76  =  2     Var--V77  =  9     Var--V78  =  1     Var--V80  =  7     Var--V81  =  9     Var--V82  =  2     Var--V83  =  1     Var--V84  =  5     Var--V85  =  6     Var--V86  =  3     Var--V87  =  8     Var--V88  =  4     
+bt_search finished
+Search made 145 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.006132265999999997
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  1     Var--V01  =  3     Var--V02  =  6     Var--V03  =  2     Var--V04  =  5     Var--V05  =  9     Var--V06  =  7     Var--V07  =  4     Var--V08  =  8     Var--V10  =  7     Var--V11  =  2     Var--V12  =  5     Var--V13  =  4     Var--V14  =  1     Var--V15  =  8     Var--V16  =  9     Var--V17  =  3     Var--V18  =  6     Var--V20  =  4     Var--V21  =  8     Var--V22  =  9     Var--V23  =  3     Var--V24  =  6     Var--V25  =  7     Var--V26  =  1     Var--V27  =  5     Var--V28  =  2     Var--V30  =  3     Var--V31  =  6     Var--V32  =  4     Var--V33  =  7     Var--V34  =  8     Var--V35  =  5     Var--V36  =  2     Var--V37  =  1     Var--V38  =  9     Var--V40  =  5     Var--V41  =  1     Var--V42  =  8     Var--V43  =  6     Var--V44  =  9     Var--V45  =  2     Var--V46  =  3     Var--V47  =  7     Var--V48  =  4     Var--V50  =  9     Var--V51  =  7     Var--V52  =  2     Var--V53  =  1     Var--V54  =  3     Var--V55  =  4     Var--V56  =  6     Var--V57  =  8     Var--V58  =  5     Var--V60  =  2     Var--V61  =  4     Var--V62  =  1     Var--V63  =  5     Var--V64  =  7     Var--V65  =  6     Var--V66  =  8     Var--V67  =  9     Var--V68  =  3     Var--V70  =  8     Var--V71  =  5     Var--V72  =  3     Var--V73  =  9     Var--V74  =  2     Var--V75  =  1     Var--V76  =  4     Var--V77  =  6     Var--V78  =  7     Var--V80  =  6     Var--V81  =  9     Var--V82  =  7     Var--V83  =  8     Var--V84  =  4     Var--V85  =  3     Var--V86  =  5     Var--V87  =  2     Var--V88  =  1     
+bt_search finished
+Search made 139 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSPsudoku_csp_binary_model unsolved. Has no solutions
+bt_search finished
+Search made 20 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.006194540999999998
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  9     Var--V01  =  2     Var--V02  =  7     Var--V03  =  4     Var--V04  =  8     Var--V05  =  6     Var--V06  =  5     Var--V07  =  1     Var--V08  =  3     Var--V10  =  1     Var--V11  =  4     Var--V12  =  5     Var--V13  =  3     Var--V14  =  9     Var--V15  =  2     Var--V16  =  6     Var--V17  =  8     Var--V18  =  7     Var--V20  =  8     Var--V21  =  6     Var--V22  =  3     Var--V23  =  7     Var--V24  =  1     Var--V25  =  5     Var--V26  =  4     Var--V27  =  2     Var--V28  =  9     Var--V30  =  2     Var--V31  =  8     Var--V32  =  6     Var--V33  =  5     Var--V34  =  4     Var--V35  =  9     Var--V36  =  3     Var--V37  =  7     Var--V38  =  1     Var--V40  =  7     Var--V41  =  9     Var--V42  =  1     Var--V43  =  8     Var--V44  =  6     Var--V45  =  3     Var--V46  =  2     Var--V47  =  4     Var--V48  =  5     Var--V50  =  3     Var--V51  =  5     Var--V52  =  4     Var--V53  =  1     Var--V54  =  2     Var--V55  =  7     Var--V56  =  8     Var--V57  =  9     Var--V58  =  6     Var--V60  =  6     Var--V61  =  1     Var--V62  =  2     Var--V63  =  9     Var--V64  =  3     Var--V65  =  8     Var--V66  =  7     Var--V67  =  5     Var--V68  =  4     Var--V70  =  5     Var--V71  =  3     Var--V72  =  9     Var--V73  =  2     Var--V74  =  7     Var--V75  =  4     Var--V76  =  1     Var--V77  =  6     Var--V78  =  8     Var--V80  =  4     Var--V81  =  7     Var--V82  =  8     Var--V83  =  6     Var--V84  =  5     Var--V85  =  1     Var--V86  =  9     Var--V87  =  3     Var--V88  =  2     
+bt_search finished
+Search made 137 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.009585436000000003
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  8     Var--V01  =  4     Var--V02  =  2     Var--V03  =  1     Var--V04  =  6     Var--V05  =  5     Var--V06  =  3     Var--V07  =  9     Var--V08  =  7     Var--V10  =  9     Var--V11  =  1     Var--V12  =  5     Var--V13  =  2     Var--V14  =  3     Var--V15  =  7     Var--V16  =  8     Var--V17  =  4     Var--V18  =  6     Var--V20  =  7     Var--V21  =  3     Var--V22  =  6     Var--V23  =  4     Var--V24  =  8     Var--V25  =  9     Var--V26  =  1     Var--V27  =  5     Var--V28  =  2     Var--V30  =  1     Var--V31  =  8     Var--V32  =  7     Var--V33  =  9     Var--V34  =  5     Var--V35  =  2     Var--V36  =  4     Var--V37  =  6     Var--V38  =  3     Var--V40  =  6     Var--V41  =  9     Var--V42  =  4     Var--V43  =  3     Var--V44  =  1     Var--V45  =  8     Var--V46  =  7     Var--V47  =  2     Var--V48  =  5     Var--V50  =  2     Var--V51  =  5     Var--V52  =  3     Var--V53  =  6     Var--V54  =  7     Var--V55  =  4     Var--V56  =  9     Var--V57  =  8     Var--V58  =  1     Var--V60  =  3     Var--V61  =  6     Var--V62  =  8     Var--V63  =  5     Var--V64  =  9     Var--V65  =  1     Var--V66  =  2     Var--V67  =  7     Var--V68  =  4     Var--V70  =  4     Var--V71  =  7     Var--V72  =  1     Var--V73  =  8     Var--V74  =  2     Var--V75  =  6     Var--V76  =  5     Var--V77  =  3     Var--V78  =  9     Var--V80  =  5     Var--V81  =  2     Var--V82  =  9     Var--V83  =  7     Var--V84  =  4     Var--V85  =  3     Var--V86  =  6     Var--V87  =  1     Var--V88  =  8     
+bt_search finished
+Search made 359 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.006261278000000037
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  3     Var--V01  =  8     Var--V02  =  6     Var--V03  =  4     Var--V04  =  1     Var--V05  =  2     Var--V06  =  7     Var--V07  =  9     Var--V08  =  5     Var--V10  =  4     Var--V11  =  5     Var--V12  =  7     Var--V13  =  3     Var--V14  =  9     Var--V15  =  6     Var--V16  =  1     Var--V17  =  2     Var--V18  =  8     Var--V20  =  2     Var--V21  =  1     Var--V22  =  9     Var--V23  =  8     Var--V24  =  7     Var--V25  =  5     Var--V26  =  4     Var--V27  =  6     Var--V28  =  3     Var--V30  =  8     Var--V31  =  3     Var--V32  =  5     Var--V33  =  1     Var--V34  =  2     Var--V35  =  4     Var--V36  =  6     Var--V37  =  7     Var--V38  =  9     Var--V40  =  9     Var--V41  =  7     Var--V42  =  1     Var--V43  =  6     Var--V44  =  5     Var--V45  =  3     Var--V46  =  2     Var--V47  =  8     Var--V48  =  4     Var--V50  =  6     Var--V51  =  2     Var--V52  =  4     Var--V53  =  7     Var--V54  =  8     Var--V55  =  9     Var--V56  =  3     Var--V57  =  5     Var--V58  =  1     Var--V60  =  5     Var--V61  =  9     Var--V62  =  3     Var--V63  =  2     Var--V64  =  6     Var--V65  =  1     Var--V66  =  8     Var--V67  =  4     Var--V68  =  7     Var--V70  =  1     Var--V71  =  6     Var--V72  =  8     Var--V73  =  5     Var--V74  =  4     Var--V75  =  7     Var--V76  =  9     Var--V77  =  3     Var--V78  =  2     Var--V80  =  7     Var--V81  =  4     Var--V82  =  2     Var--V83  =  9     Var--V84  =  3     Var--V85  =  8     Var--V86  =  5     Var--V87  =  1     Var--V88  =  6     
+bt_search finished
+Search made 157 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.006301946000000003
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  2     Var--V01  =  8     Var--V02  =  1     Var--V03  =  9     Var--V04  =  6     Var--V05  =  4     Var--V06  =  3     Var--V07  =  5     Var--V08  =  7     Var--V10  =  3     Var--V11  =  4     Var--V12  =  7     Var--V13  =  5     Var--V14  =  1     Var--V15  =  2     Var--V16  =  8     Var--V17  =  6     Var--V18  =  9     Var--V20  =  6     Var--V21  =  9     Var--V22  =  5     Var--V23  =  7     Var--V24  =  3     Var--V25  =  8     Var--V26  =  4     Var--V27  =  1     Var--V28  =  2     Var--V30  =  9     Var--V31  =  3     Var--V32  =  6     Var--V33  =  2     Var--V34  =  8     Var--V35  =  7     Var--V36  =  1     Var--V37  =  4     Var--V38  =  5     Var--V40  =  7     Var--V41  =  5     Var--V42  =  8     Var--V43  =  1     Var--V44  =  4     Var--V45  =  3     Var--V46  =  2     Var--V47  =  9     Var--V48  =  6     Var--V50  =  4     Var--V51  =  1     Var--V52  =  2     Var--V53  =  6     Var--V54  =  5     Var--V55  =  9     Var--V56  =  7     Var--V57  =  3     Var--V58  =  8     Var--V60  =  8     Var--V61  =  7     Var--V62  =  3     Var--V63  =  4     Var--V64  =  9     Var--V65  =  5     Var--V66  =  6     Var--V67  =  2     Var--V68  =  1     Var--V70  =  5     Var--V71  =  6     Var--V72  =  4     Var--V73  =  8     Var--V74  =  2     Var--V75  =  1     Var--V76  =  9     Var--V77  =  7     Var--V78  =  3     Var--V80  =  1     Var--V81  =  2     Var--V82  =  9     Var--V83  =  3     Var--V84  =  7     Var--V85  =  6     Var--V86  =  5     Var--V87  =  8     Var--V88  =  4     
+bt_search finished
+Search made 155 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.0063450469999999926
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  9     Var--V01  =  2     Var--V02  =  4     Var--V03  =  1     Var--V04  =  5     Var--V05  =  6     Var--V06  =  3     Var--V07  =  8     Var--V08  =  7     Var--V10  =  7     Var--V11  =  6     Var--V12  =  8     Var--V13  =  2     Var--V14  =  4     Var--V15  =  3     Var--V16  =  5     Var--V17  =  1     Var--V18  =  9     Var--V20  =  5     Var--V21  =  1     Var--V22  =  3     Var--V23  =  7     Var--V24  =  8     Var--V25  =  9     Var--V26  =  2     Var--V27  =  6     Var--V28  =  4     Var--V30  =  3     Var--V31  =  4     Var--V32  =  9     Var--V33  =  5     Var--V34  =  6     Var--V35  =  2     Var--V36  =  1     Var--V37  =  7     Var--V38  =  8     Var--V40  =  1     Var--V41  =  5     Var--V42  =  6     Var--V43  =  3     Var--V44  =  7     Var--V45  =  8     Var--V46  =  4     Var--V47  =  9     Var--V48  =  2     Var--V50  =  8     Var--V51  =  7     Var--V52  =  2     Var--V53  =  4     Var--V54  =  9     Var--V55  =  1     Var--V56  =  6     Var--V57  =  3     Var--V58  =  5     Var--V60  =  6     Var--V61  =  9     Var--V62  =  5     Var--V63  =  8     Var--V64  =  1     Var--V65  =  4     Var--V66  =  7     Var--V67  =  2     Var--V68  =  3     Var--V70  =  2     Var--V71  =  8     Var--V72  =  7     Var--V73  =  6     Var--V74  =  3     Var--V75  =  5     Var--V76  =  9     Var--V77  =  4     Var--V78  =  1     Var--V80  =  4     Var--V81  =  3     Var--V82  =  1     Var--V83  =  9     Var--V84  =  2     Var--V85  =  7     Var--V86  =  8     Var--V87  =  5     Var--V88  =  6     
+bt_search finished
+Search made 140 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.010048952
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  9     Var--V01  =  3     Var--V02  =  7     Var--V03  =  6     Var--V04  =  4     Var--V05  =  8     Var--V06  =  5     Var--V07  =  1     Var--V08  =  2     Var--V10  =  2     Var--V11  =  5     Var--V12  =  8     Var--V13  =  3     Var--V14  =  7     Var--V15  =  1     Var--V16  =  4     Var--V17  =  6     Var--V18  =  9     Var--V20  =  4     Var--V21  =  6     Var--V22  =  1     Var--V23  =  2     Var--V24  =  5     Var--V25  =  9     Var--V26  =  3     Var--V27  =  7     Var--V28  =  8     Var--V30  =  1     Var--V31  =  2     Var--V32  =  3     Var--V33  =  7     Var--V34  =  6     Var--V35  =  4     Var--V36  =  8     Var--V37  =  9     Var--V38  =  5     Var--V40  =  5     Var--V41  =  4     Var--V42  =  9     Var--V43  =  8     Var--V44  =  1     Var--V45  =  3     Var--V46  =  7     Var--V47  =  2     Var--V48  =  6     Var--V50  =  7     Var--V51  =  8     Var--V52  =  6     Var--V53  =  5     Var--V54  =  9     Var--V55  =  2     Var--V56  =  1     Var--V57  =  3     Var--V58  =  4     Var--V60  =  6     Var--V61  =  9     Var--V62  =  5     Var--V63  =  4     Var--V64  =  3     Var--V65  =  7     Var--V66  =  2     Var--V67  =  8     Var--V68  =  1     Var--V70  =  8     Var--V71  =  7     Var--V72  =  4     Var--V73  =  1     Var--V74  =  2     Var--V75  =  6     Var--V76  =  9     Var--V77  =  5     Var--V78  =  3     Var--V80  =  3     Var--V81  =  1     Var--V82  =  2     Var--V83  =  9     Var--V84  =  8     Var--V85  =  5     Var--V86  =  6     Var--V87  =  4     Var--V88  =  7     
+bt_search finished
+Search made 403 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.006214791999999969
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  3     Var--V01  =  5     Var--V02  =  2     Var--V03  =  4     Var--V04  =  6     Var--V05  =  9     Var--V06  =  7     Var--V07  =  8     Var--V08  =  1     Var--V10  =  4     Var--V11  =  6     Var--V12  =  8     Var--V13  =  5     Var--V14  =  7     Var--V15  =  1     Var--V16  =  3     Var--V17  =  9     Var--V18  =  2     Var--V20  =  1     Var--V21  =  7     Var--V22  =  9     Var--V23  =  8     Var--V24  =  2     Var--V25  =  3     Var--V26  =  4     Var--V27  =  5     Var--V28  =  6     Var--V30  =  9     Var--V31  =  8     Var--V32  =  7     Var--V33  =  3     Var--V34  =  1     Var--V35  =  2     Var--V36  =  5     Var--V37  =  6     Var--V38  =  4     Var--V40  =  2     Var--V41  =  4     Var--V42  =  1     Var--V43  =  9     Var--V44  =  5     Var--V45  =  6     Var--V46  =  8     Var--V47  =  7     Var--V48  =  3     Var--V50  =  5     Var--V51  =  3     Var--V52  =  6     Var--V53  =  7     Var--V54  =  4     Var--V55  =  8     Var--V56  =  1     Var--V57  =  2     Var--V58  =  9     Var--V60  =  8     Var--V61  =  2     Var--V62  =  4     Var--V63  =  6     Var--V64  =  3     Var--V65  =  5     Var--V66  =  9     Var--V67  =  1     Var--V68  =  7     Var--V70  =  7     Var--V71  =  1     Var--V72  =  5     Var--V73  =  2     Var--V74  =  9     Var--V75  =  4     Var--V76  =  6     Var--V77  =  3     Var--V78  =  8     Var--V80  =  6     Var--V81  =  9     Var--V82  =  3     Var--V83  =  1     Var--V84  =  8     Var--V85  =  7     Var--V86  =  2     Var--V87  =  4     Var--V88  =  5     
+bt_search finished
+Search made 133 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.00651963599999994
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  2     Var--V01  =  7     Var--V02  =  3     Var--V03  =  4     Var--V04  =  8     Var--V05  =  1     Var--V06  =  9     Var--V07  =  6     Var--V08  =  5     Var--V10  =  9     Var--V11  =  1     Var--V12  =  6     Var--V13  =  2     Var--V14  =  7     Var--V15  =  5     Var--V16  =  4     Var--V17  =  3     Var--V18  =  8     Var--V20  =  5     Var--V21  =  4     Var--V22  =  8     Var--V23  =  6     Var--V24  =  9     Var--V25  =  3     Var--V26  =  1     Var--V27  =  2     Var--V28  =  7     Var--V30  =  8     Var--V31  =  5     Var--V32  =  9     Var--V33  =  3     Var--V34  =  4     Var--V35  =  7     Var--V36  =  6     Var--V37  =  1     Var--V38  =  2     Var--V40  =  3     Var--V41  =  6     Var--V42  =  7     Var--V43  =  5     Var--V44  =  1     Var--V45  =  2     Var--V46  =  8     Var--V47  =  4     Var--V48  =  9     Var--V50  =  1     Var--V51  =  2     Var--V52  =  4     Var--V53  =  9     Var--V54  =  6     Var--V55  =  8     Var--V56  =  7     Var--V57  =  5     Var--V58  =  3     Var--V60  =  4     Var--V61  =  3     Var--V62  =  1     Var--V63  =  8     Var--V64  =  2     Var--V65  =  9     Var--V66  =  5     Var--V67  =  7     Var--V68  =  6     Var--V70  =  6     Var--V71  =  8     Var--V72  =  5     Var--V73  =  7     Var--V74  =  3     Var--V75  =  4     Var--V76  =  2     Var--V77  =  9     Var--V78  =  1     Var--V80  =  7     Var--V81  =  9     Var--V82  =  2     Var--V83  =  1     Var--V84  =  5     Var--V85  =  6     Var--V86  =  3     Var--V87  =  8     Var--V88  =  4     
+bt_search finished
+Search made 179 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.006555195000000014
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  1     Var--V01  =  3     Var--V02  =  6     Var--V03  =  2     Var--V04  =  5     Var--V05  =  9     Var--V06  =  7     Var--V07  =  4     Var--V08  =  8     Var--V10  =  7     Var--V11  =  2     Var--V12  =  5     Var--V13  =  4     Var--V14  =  1     Var--V15  =  8     Var--V16  =  9     Var--V17  =  3     Var--V18  =  6     Var--V20  =  4     Var--V21  =  8     Var--V22  =  9     Var--V23  =  3     Var--V24  =  6     Var--V25  =  7     Var--V26  =  1     Var--V27  =  5     Var--V28  =  2     Var--V30  =  3     Var--V31  =  6     Var--V32  =  4     Var--V33  =  7     Var--V34  =  8     Var--V35  =  5     Var--V36  =  2     Var--V37  =  1     Var--V38  =  9     Var--V40  =  5     Var--V41  =  1     Var--V42  =  8     Var--V43  =  6     Var--V44  =  9     Var--V45  =  2     Var--V46  =  3     Var--V47  =  7     Var--V48  =  4     Var--V50  =  9     Var--V51  =  7     Var--V52  =  2     Var--V53  =  1     Var--V54  =  3     Var--V55  =  4     Var--V56  =  6     Var--V57  =  8     Var--V58  =  5     Var--V60  =  2     Var--V61  =  4     Var--V62  =  1     Var--V63  =  5     Var--V64  =  7     Var--V65  =  6     Var--V66  =  8     Var--V67  =  9     Var--V68  =  3     Var--V70  =  8     Var--V71  =  5     Var--V72  =  3     Var--V73  =  9     Var--V74  =  2     Var--V75  =  1     Var--V76  =  4     Var--V77  =  6     Var--V78  =  7     Var--V80  =  6     Var--V81  =  9     Var--V82  =  7     Var--V83  =  8     Var--V84  =  4     Var--V85  =  3     Var--V86  =  5     Var--V87  =  2     Var--V88  =  1     
+bt_search finished
+Search made 152 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSPsudoku_csp_binary_model unsolved. Has no solutions
+bt_search finished
+Search made 20 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.006436007000000021
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  9     Var--V01  =  2     Var--V02  =  7     Var--V03  =  4     Var--V04  =  8     Var--V05  =  6     Var--V06  =  5     Var--V07  =  1     Var--V08  =  3     Var--V10  =  1     Var--V11  =  4     Var--V12  =  5     Var--V13  =  3     Var--V14  =  9     Var--V15  =  2     Var--V16  =  6     Var--V17  =  8     Var--V18  =  7     Var--V20  =  8     Var--V21  =  6     Var--V22  =  3     Var--V23  =  7     Var--V24  =  1     Var--V25  =  5     Var--V26  =  4     Var--V27  =  2     Var--V28  =  9     Var--V30  =  2     Var--V31  =  8     Var--V32  =  6     Var--V33  =  5     Var--V34  =  4     Var--V35  =  9     Var--V36  =  3     Var--V37  =  7     Var--V38  =  1     Var--V40  =  7     Var--V41  =  9     Var--V42  =  1     Var--V43  =  8     Var--V44  =  6     Var--V45  =  3     Var--V46  =  2     Var--V47  =  4     Var--V48  =  5     Var--V50  =  3     Var--V51  =  5     Var--V52  =  4     Var--V53  =  1     Var--V54  =  2     Var--V55  =  7     Var--V56  =  8     Var--V57  =  9     Var--V58  =  6     Var--V60  =  6     Var--V61  =  1     Var--V62  =  2     Var--V63  =  9     Var--V64  =  3     Var--V65  =  8     Var--V66  =  7     Var--V67  =  5     Var--V68  =  4     Var--V70  =  5     Var--V71  =  3     Var--V72  =  9     Var--V73  =  2     Var--V74  =  7     Var--V75  =  4     Var--V76  =  1     Var--V77  =  6     Var--V78  =  8     Var--V80  =  4     Var--V81  =  7     Var--V82  =  8     Var--V83  =  6     Var--V84  =  5     Var--V85  =  1     Var--V86  =  9     Var--V87  =  3     Var--V88  =  2     
+bt_search finished
+Search made 168 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.020971910999999954
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  8     Var--V01  =  4     Var--V02  =  2     Var--V03  =  1     Var--V04  =  6     Var--V05  =  5     Var--V06  =  3     Var--V07  =  9     Var--V08  =  7     Var--V10  =  9     Var--V11  =  1     Var--V12  =  5     Var--V13  =  2     Var--V14  =  3     Var--V15  =  7     Var--V16  =  8     Var--V17  =  4     Var--V18  =  6     Var--V20  =  7     Var--V21  =  3     Var--V22  =  6     Var--V23  =  4     Var--V24  =  8     Var--V25  =  9     Var--V26  =  1     Var--V27  =  5     Var--V28  =  2     Var--V30  =  1     Var--V31  =  8     Var--V32  =  7     Var--V33  =  9     Var--V34  =  5     Var--V35  =  2     Var--V36  =  4     Var--V37  =  6     Var--V38  =  3     Var--V40  =  6     Var--V41  =  9     Var--V42  =  4     Var--V43  =  3     Var--V44  =  1     Var--V45  =  8     Var--V46  =  7     Var--V47  =  2     Var--V48  =  5     Var--V50  =  2     Var--V51  =  5     Var--V52  =  3     Var--V53  =  6     Var--V54  =  7     Var--V55  =  4     Var--V56  =  9     Var--V57  =  8     Var--V58  =  1     Var--V60  =  3     Var--V61  =  6     Var--V62  =  8     Var--V63  =  5     Var--V64  =  9     Var--V65  =  1     Var--V66  =  2     Var--V67  =  7     Var--V68  =  4     Var--V70  =  4     Var--V71  =  7     Var--V72  =  1     Var--V73  =  8     Var--V74  =  2     Var--V75  =  6     Var--V76  =  5     Var--V77  =  3     Var--V78  =  9     Var--V80  =  5     Var--V81  =  2     Var--V82  =  9     Var--V83  =  7     Var--V84  =  4     Var--V85  =  3     Var--V86  =  6     Var--V87  =  1     Var--V88  =  8     
+bt_search finished
+Search made 1071 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.007589273999999979
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  3     Var--V01  =  8     Var--V02  =  6     Var--V03  =  4     Var--V04  =  1     Var--V05  =  2     Var--V06  =  7     Var--V07  =  9     Var--V08  =  5     Var--V10  =  4     Var--V11  =  5     Var--V12  =  7     Var--V13  =  3     Var--V14  =  9     Var--V15  =  6     Var--V16  =  1     Var--V17  =  2     Var--V18  =  8     Var--V20  =  2     Var--V21  =  1     Var--V22  =  9     Var--V23  =  8     Var--V24  =  7     Var--V25  =  5     Var--V26  =  4     Var--V27  =  6     Var--V28  =  3     Var--V30  =  8     Var--V31  =  3     Var--V32  =  5     Var--V33  =  1     Var--V34  =  2     Var--V35  =  4     Var--V36  =  6     Var--V37  =  7     Var--V38  =  9     Var--V40  =  9     Var--V41  =  7     Var--V42  =  1     Var--V43  =  6     Var--V44  =  5     Var--V45  =  3     Var--V46  =  2     Var--V47  =  8     Var--V48  =  4     Var--V50  =  6     Var--V51  =  2     Var--V52  =  4     Var--V53  =  7     Var--V54  =  8     Var--V55  =  9     Var--V56  =  3     Var--V57  =  5     Var--V58  =  1     Var--V60  =  5     Var--V61  =  9     Var--V62  =  3     Var--V63  =  2     Var--V64  =  6     Var--V65  =  1     Var--V66  =  8     Var--V67  =  4     Var--V68  =  7     Var--V70  =  1     Var--V71  =  6     Var--V72  =  8     Var--V73  =  5     Var--V74  =  4     Var--V75  =  7     Var--V76  =  9     Var--V77  =  3     Var--V78  =  2     Var--V80  =  7     Var--V81  =  4     Var--V82  =  2     Var--V83  =  9     Var--V84  =  3     Var--V85  =  8     Var--V86  =  5     Var--V87  =  1     Var--V88  =  6     
+bt_search finished
+Search made 240 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.010919636999999982
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  2     Var--V01  =  8     Var--V02  =  1     Var--V03  =  9     Var--V04  =  6     Var--V05  =  4     Var--V06  =  3     Var--V07  =  5     Var--V08  =  7     Var--V10  =  3     Var--V11  =  4     Var--V12  =  7     Var--V13  =  5     Var--V14  =  1     Var--V15  =  2     Var--V16  =  8     Var--V17  =  6     Var--V18  =  9     Var--V20  =  6     Var--V21  =  9     Var--V22  =  5     Var--V23  =  7     Var--V24  =  3     Var--V25  =  8     Var--V26  =  4     Var--V27  =  1     Var--V28  =  2     Var--V30  =  9     Var--V31  =  3     Var--V32  =  6     Var--V33  =  2     Var--V34  =  8     Var--V35  =  7     Var--V36  =  1     Var--V37  =  4     Var--V38  =  5     Var--V40  =  7     Var--V41  =  5     Var--V42  =  8     Var--V43  =  1     Var--V44  =  4     Var--V45  =  3     Var--V46  =  2     Var--V47  =  9     Var--V48  =  6     Var--V50  =  4     Var--V51  =  1     Var--V52  =  2     Var--V53  =  6     Var--V54  =  5     Var--V55  =  9     Var--V56  =  7     Var--V57  =  3     Var--V58  =  8     Var--V60  =  8     Var--V61  =  7     Var--V62  =  3     Var--V63  =  4     Var--V64  =  9     Var--V65  =  5     Var--V66  =  6     Var--V67  =  2     Var--V68  =  1     Var--V70  =  5     Var--V71  =  6     Var--V72  =  4     Var--V73  =  8     Var--V74  =  2     Var--V75  =  1     Var--V76  =  9     Var--V77  =  7     Var--V78  =  3     Var--V80  =  1     Var--V81  =  2     Var--V82  =  9     Var--V83  =  3     Var--V84  =  7     Var--V85  =  6     Var--V86  =  5     Var--V87  =  8     Var--V88  =  4     
+bt_search finished
+Search made 447 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.048960930000000014
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  9     Var--V01  =  2     Var--V02  =  4     Var--V03  =  1     Var--V04  =  5     Var--V05  =  6     Var--V06  =  3     Var--V07  =  8     Var--V08  =  7     Var--V10  =  7     Var--V11  =  6     Var--V12  =  8     Var--V13  =  2     Var--V14  =  4     Var--V15  =  3     Var--V16  =  5     Var--V17  =  1     Var--V18  =  9     Var--V20  =  5     Var--V21  =  1     Var--V22  =  3     Var--V23  =  7     Var--V24  =  8     Var--V25  =  9     Var--V26  =  2     Var--V27  =  6     Var--V28  =  4     Var--V30  =  3     Var--V31  =  4     Var--V32  =  9     Var--V33  =  5     Var--V34  =  6     Var--V35  =  2     Var--V36  =  1     Var--V37  =  7     Var--V38  =  8     Var--V40  =  1     Var--V41  =  5     Var--V42  =  6     Var--V43  =  3     Var--V44  =  7     Var--V45  =  8     Var--V46  =  4     Var--V47  =  9     Var--V48  =  2     Var--V50  =  8     Var--V51  =  7     Var--V52  =  2     Var--V53  =  4     Var--V54  =  9     Var--V55  =  1     Var--V56  =  6     Var--V57  =  3     Var--V58  =  5     Var--V60  =  6     Var--V61  =  9     Var--V62  =  5     Var--V63  =  8     Var--V64  =  1     Var--V65  =  4     Var--V66  =  7     Var--V67  =  2     Var--V68  =  3     Var--V70  =  2     Var--V71  =  8     Var--V72  =  7     Var--V73  =  6     Var--V74  =  3     Var--V75  =  5     Var--V76  =  9     Var--V77  =  4     Var--V78  =  1     Var--V80  =  4     Var--V81  =  3     Var--V82  =  1     Var--V83  =  9     Var--V84  =  2     Var--V85  =  7     Var--V86  =  8     Var--V87  =  5     Var--V88  =  6     
+bt_search finished
+Search made 2740 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.1237914699999999
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  9     Var--V01  =  3     Var--V02  =  7     Var--V03  =  6     Var--V04  =  4     Var--V05  =  8     Var--V06  =  5     Var--V07  =  1     Var--V08  =  2     Var--V10  =  2     Var--V11  =  5     Var--V12  =  8     Var--V13  =  3     Var--V14  =  7     Var--V15  =  1     Var--V16  =  4     Var--V17  =  6     Var--V18  =  9     Var--V20  =  4     Var--V21  =  6     Var--V22  =  1     Var--V23  =  2     Var--V24  =  5     Var--V25  =  9     Var--V26  =  3     Var--V27  =  7     Var--V28  =  8     Var--V30  =  1     Var--V31  =  2     Var--V32  =  3     Var--V33  =  7     Var--V34  =  6     Var--V35  =  4     Var--V36  =  8     Var--V37  =  9     Var--V38  =  5     Var--V40  =  5     Var--V41  =  4     Var--V42  =  9     Var--V43  =  8     Var--V44  =  1     Var--V45  =  3     Var--V46  =  7     Var--V47  =  2     Var--V48  =  6     Var--V50  =  7     Var--V51  =  8     Var--V52  =  6     Var--V53  =  5     Var--V54  =  9     Var--V55  =  2     Var--V56  =  1     Var--V57  =  3     Var--V58  =  4     Var--V60  =  6     Var--V61  =  9     Var--V62  =  5     Var--V63  =  4     Var--V64  =  3     Var--V65  =  7     Var--V66  =  2     Var--V67  =  8     Var--V68  =  1     Var--V70  =  8     Var--V71  =  7     Var--V72  =  4     Var--V73  =  1     Var--V74  =  2     Var--V75  =  6     Var--V76  =  9     Var--V77  =  5     Var--V78  =  3     Var--V80  =  3     Var--V81  =  1     Var--V82  =  2     Var--V83  =  9     Var--V84  =  8     Var--V85  =  5     Var--V86  =  6     Var--V87  =  4     Var--V88  =  7     
+bt_search finished
+Search made 7217 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.006743909999999964
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  3     Var--V01  =  5     Var--V02  =  2     Var--V03  =  4     Var--V04  =  6     Var--V05  =  9     Var--V06  =  7     Var--V07  =  8     Var--V08  =  1     Var--V10  =  4     Var--V11  =  6     Var--V12  =  8     Var--V13  =  5     Var--V14  =  7     Var--V15  =  1     Var--V16  =  3     Var--V17  =  9     Var--V18  =  2     Var--V20  =  1     Var--V21  =  7     Var--V22  =  9     Var--V23  =  8     Var--V24  =  2     Var--V25  =  3     Var--V26  =  4     Var--V27  =  5     Var--V28  =  6     Var--V30  =  9     Var--V31  =  8     Var--V32  =  7     Var--V33  =  3     Var--V34  =  1     Var--V35  =  2     Var--V36  =  5     Var--V37  =  6     Var--V38  =  4     Var--V40  =  2     Var--V41  =  4     Var--V42  =  1     Var--V43  =  9     Var--V44  =  5     Var--V45  =  6     Var--V46  =  8     Var--V47  =  7     Var--V48  =  3     Var--V50  =  5     Var--V51  =  3     Var--V52  =  6     Var--V53  =  7     Var--V54  =  4     Var--V55  =  8     Var--V56  =  1     Var--V57  =  2     Var--V58  =  9     Var--V60  =  8     Var--V61  =  2     Var--V62  =  4     Var--V63  =  6     Var--V64  =  3     Var--V65  =  5     Var--V66  =  9     Var--V67  =  1     Var--V68  =  7     Var--V70  =  7     Var--V71  =  1     Var--V72  =  5     Var--V73  =  2     Var--V74  =  9     Var--V75  =  4     Var--V76  =  6     Var--V77  =  3     Var--V78  =  8     Var--V80  =  6     Var--V81  =  9     Var--V82  =  3     Var--V83  =  1     Var--V84  =  8     Var--V85  =  7     Var--V86  =  2     Var--V87  =  4     Var--V88  =  5     
+bt_search finished
+Search made 185 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.007403074999999815
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  2     Var--V01  =  7     Var--V02  =  3     Var--V03  =  4     Var--V04  =  8     Var--V05  =  1     Var--V06  =  9     Var--V07  =  6     Var--V08  =  5     Var--V10  =  9     Var--V11  =  1     Var--V12  =  6     Var--V13  =  2     Var--V14  =  7     Var--V15  =  5     Var--V16  =  4     Var--V17  =  3     Var--V18  =  8     Var--V20  =  5     Var--V21  =  4     Var--V22  =  8     Var--V23  =  6     Var--V24  =  9     Var--V25  =  3     Var--V26  =  1     Var--V27  =  2     Var--V28  =  7     Var--V30  =  8     Var--V31  =  5     Var--V32  =  9     Var--V33  =  3     Var--V34  =  4     Var--V35  =  7     Var--V36  =  6     Var--V37  =  1     Var--V38  =  2     Var--V40  =  3     Var--V41  =  6     Var--V42  =  7     Var--V43  =  5     Var--V44  =  1     Var--V45  =  2     Var--V46  =  8     Var--V47  =  4     Var--V48  =  9     Var--V50  =  1     Var--V51  =  2     Var--V52  =  4     Var--V53  =  9     Var--V54  =  6     Var--V55  =  8     Var--V56  =  7     Var--V57  =  5     Var--V58  =  3     Var--V60  =  4     Var--V61  =  3     Var--V62  =  1     Var--V63  =  8     Var--V64  =  2     Var--V65  =  9     Var--V66  =  5     Var--V67  =  7     Var--V68  =  6     Var--V70  =  6     Var--V71  =  8     Var--V72  =  5     Var--V73  =  7     Var--V74  =  3     Var--V75  =  4     Var--V76  =  2     Var--V77  =  9     Var--V78  =  1     Var--V80  =  7     Var--V81  =  9     Var--V82  =  2     Var--V83  =  1     Var--V84  =  5     Var--V85  =  6     Var--V86  =  3     Var--V87  =  8     Var--V88  =  4     
+bt_search finished
+Search made 226 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.0076278070000002085
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  1     Var--V01  =  3     Var--V02  =  6     Var--V03  =  2     Var--V04  =  5     Var--V05  =  9     Var--V06  =  7     Var--V07  =  4     Var--V08  =  8     Var--V10  =  7     Var--V11  =  2     Var--V12  =  5     Var--V13  =  4     Var--V14  =  1     Var--V15  =  8     Var--V16  =  9     Var--V17  =  3     Var--V18  =  6     Var--V20  =  4     Var--V21  =  8     Var--V22  =  9     Var--V23  =  3     Var--V24  =  6     Var--V25  =  7     Var--V26  =  1     Var--V27  =  5     Var--V28  =  2     Var--V30  =  3     Var--V31  =  6     Var--V32  =  4     Var--V33  =  7     Var--V34  =  8     Var--V35  =  5     Var--V36  =  2     Var--V37  =  1     Var--V38  =  9     Var--V40  =  5     Var--V41  =  1     Var--V42  =  8     Var--V43  =  6     Var--V44  =  9     Var--V45  =  2     Var--V46  =  3     Var--V47  =  7     Var--V48  =  4     Var--V50  =  9     Var--V51  =  7     Var--V52  =  2     Var--V53  =  1     Var--V54  =  3     Var--V55  =  4     Var--V56  =  6     Var--V57  =  8     Var--V58  =  5     Var--V60  =  2     Var--V61  =  4     Var--V62  =  1     Var--V63  =  5     Var--V64  =  7     Var--V65  =  6     Var--V66  =  8     Var--V67  =  9     Var--V68  =  3     Var--V70  =  8     Var--V71  =  5     Var--V72  =  3     Var--V73  =  9     Var--V74  =  2     Var--V75  =  1     Var--V76  =  4     Var--V77  =  6     Var--V78  =  7     Var--V80  =  6     Var--V81  =  9     Var--V82  =  7     Var--V83  =  8     Var--V84  =  4     Var--V85  =  3     Var--V86  =  5     Var--V87  =  2     Var--V88  =  1     
+bt_search finished
+Search made 174 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSPsudoku_csp_binary_model unsolved. Has no solutions
+bt_search finished
+Search made 20 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.007232381000000121
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  9     Var--V01  =  2     Var--V02  =  7     Var--V03  =  4     Var--V04  =  8     Var--V05  =  6     Var--V06  =  5     Var--V07  =  1     Var--V08  =  3     Var--V10  =  1     Var--V11  =  4     Var--V12  =  5     Var--V13  =  3     Var--V14  =  9     Var--V15  =  2     Var--V16  =  6     Var--V17  =  8     Var--V18  =  7     Var--V20  =  8     Var--V21  =  6     Var--V22  =  3     Var--V23  =  7     Var--V24  =  1     Var--V25  =  5     Var--V26  =  4     Var--V27  =  2     Var--V28  =  9     Var--V30  =  2     Var--V31  =  8     Var--V32  =  6     Var--V33  =  5     Var--V34  =  4     Var--V35  =  9     Var--V36  =  3     Var--V37  =  7     Var--V38  =  1     Var--V40  =  7     Var--V41  =  9     Var--V42  =  1     Var--V43  =  8     Var--V44  =  6     Var--V45  =  3     Var--V46  =  2     Var--V47  =  4     Var--V48  =  5     Var--V50  =  3     Var--V51  =  5     Var--V52  =  4     Var--V53  =  1     Var--V54  =  2     Var--V55  =  7     Var--V56  =  8     Var--V57  =  9     Var--V58  =  6     Var--V60  =  6     Var--V61  =  1     Var--V62  =  2     Var--V63  =  9     Var--V64  =  3     Var--V65  =  8     Var--V66  =  7     Var--V67  =  5     Var--V68  =  4     Var--V70  =  5     Var--V71  =  3     Var--V72  =  9     Var--V73  =  2     Var--V74  =  7     Var--V75  =  4     Var--V76  =  1     Var--V77  =  6     Var--V78  =  8     Var--V80  =  4     Var--V81  =  7     Var--V82  =  8     Var--V83  =  6     Var--V84  =  5     Var--V85  =  1     Var--V86  =  9     Var--V87  =  3     Var--V88  =  2     
+bt_search finished
+Search made 197 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.02213595300000004
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  8     Var--V01  =  4     Var--V02  =  2     Var--V03  =  1     Var--V04  =  6     Var--V05  =  5     Var--V06  =  3     Var--V07  =  9     Var--V08  =  7     Var--V10  =  9     Var--V11  =  1     Var--V12  =  5     Var--V13  =  2     Var--V14  =  3     Var--V15  =  7     Var--V16  =  8     Var--V17  =  4     Var--V18  =  6     Var--V20  =  7     Var--V21  =  3     Var--V22  =  6     Var--V23  =  4     Var--V24  =  8     Var--V25  =  9     Var--V26  =  1     Var--V27  =  5     Var--V28  =  2     Var--V30  =  1     Var--V31  =  8     Var--V32  =  7     Var--V33  =  9     Var--V34  =  5     Var--V35  =  2     Var--V36  =  4     Var--V37  =  6     Var--V38  =  3     Var--V40  =  6     Var--V41  =  9     Var--V42  =  4     Var--V43  =  3     Var--V44  =  1     Var--V45  =  8     Var--V46  =  7     Var--V47  =  2     Var--V48  =  5     Var--V50  =  2     Var--V51  =  5     Var--V52  =  3     Var--V53  =  6     Var--V54  =  7     Var--V55  =  4     Var--V56  =  9     Var--V57  =  8     Var--V58  =  1     Var--V60  =  3     Var--V61  =  6     Var--V62  =  8     Var--V63  =  5     Var--V64  =  9     Var--V65  =  1     Var--V66  =  2     Var--V67  =  7     Var--V68  =  4     Var--V70  =  4     Var--V71  =  7     Var--V72  =  1     Var--V73  =  8     Var--V74  =  2     Var--V75  =  6     Var--V76  =  5     Var--V77  =  3     Var--V78  =  9     Var--V80  =  5     Var--V81  =  2     Var--V82  =  9     Var--V83  =  7     Var--V84  =  4     Var--V85  =  3     Var--V86  =  6     Var--V87  =  1     Var--V88  =  8     
+bt_search finished
+Search made 1095 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.008204917999999894
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  3     Var--V01  =  8     Var--V02  =  6     Var--V03  =  4     Var--V04  =  1     Var--V05  =  2     Var--V06  =  7     Var--V07  =  9     Var--V08  =  5     Var--V10  =  4     Var--V11  =  5     Var--V12  =  7     Var--V13  =  3     Var--V14  =  9     Var--V15  =  6     Var--V16  =  1     Var--V17  =  2     Var--V18  =  8     Var--V20  =  2     Var--V21  =  1     Var--V22  =  9     Var--V23  =  8     Var--V24  =  7     Var--V25  =  5     Var--V26  =  4     Var--V27  =  6     Var--V28  =  3     Var--V30  =  8     Var--V31  =  3     Var--V32  =  5     Var--V33  =  1     Var--V34  =  2     Var--V35  =  4     Var--V36  =  6     Var--V37  =  7     Var--V38  =  9     Var--V40  =  9     Var--V41  =  7     Var--V42  =  1     Var--V43  =  6     Var--V44  =  5     Var--V45  =  3     Var--V46  =  2     Var--V47  =  8     Var--V48  =  4     Var--V50  =  6     Var--V51  =  2     Var--V52  =  4     Var--V53  =  7     Var--V54  =  8     Var--V55  =  9     Var--V56  =  3     Var--V57  =  5     Var--V58  =  1     Var--V60  =  5     Var--V61  =  9     Var--V62  =  3     Var--V63  =  2     Var--V64  =  6     Var--V65  =  1     Var--V66  =  8     Var--V67  =  4     Var--V68  =  7     Var--V70  =  1     Var--V71  =  6     Var--V72  =  8     Var--V73  =  5     Var--V74  =  4     Var--V75  =  7     Var--V76  =  9     Var--V77  =  3     Var--V78  =  2     Var--V80  =  7     Var--V81  =  4     Var--V82  =  2     Var--V83  =  9     Var--V84  =  3     Var--V85  =  8     Var--V86  =  5     Var--V87  =  1     Var--V88  =  6     
+bt_search finished
+Search made 260 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.011959344000000094
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  2     Var--V01  =  8     Var--V02  =  1     Var--V03  =  9     Var--V04  =  6     Var--V05  =  4     Var--V06  =  3     Var--V07  =  5     Var--V08  =  7     Var--V10  =  3     Var--V11  =  4     Var--V12  =  7     Var--V13  =  5     Var--V14  =  1     Var--V15  =  2     Var--V16  =  8     Var--V17  =  6     Var--V18  =  9     Var--V20  =  6     Var--V21  =  9     Var--V22  =  5     Var--V23  =  7     Var--V24  =  3     Var--V25  =  8     Var--V26  =  4     Var--V27  =  1     Var--V28  =  2     Var--V30  =  9     Var--V31  =  3     Var--V32  =  6     Var--V33  =  2     Var--V34  =  8     Var--V35  =  7     Var--V36  =  1     Var--V37  =  4     Var--V38  =  5     Var--V40  =  7     Var--V41  =  5     Var--V42  =  8     Var--V43  =  1     Var--V44  =  4     Var--V45  =  3     Var--V46  =  2     Var--V47  =  9     Var--V48  =  6     Var--V50  =  4     Var--V51  =  1     Var--V52  =  2     Var--V53  =  6     Var--V54  =  5     Var--V55  =  9     Var--V56  =  7     Var--V57  =  3     Var--V58  =  8     Var--V60  =  8     Var--V61  =  7     Var--V62  =  3     Var--V63  =  4     Var--V64  =  9     Var--V65  =  5     Var--V66  =  6     Var--V67  =  2     Var--V68  =  1     Var--V70  =  5     Var--V71  =  6     Var--V72  =  4     Var--V73  =  8     Var--V74  =  2     Var--V75  =  1     Var--V76  =  9     Var--V77  =  7     Var--V78  =  3     Var--V80  =  1     Var--V81  =  2     Var--V82  =  9     Var--V83  =  3     Var--V84  =  7     Var--V85  =  6     Var--V86  =  5     Var--V87  =  8     Var--V88  =  4     
+bt_search finished
+Search made 479 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.06029289900000001
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  9     Var--V01  =  2     Var--V02  =  4     Var--V03  =  1     Var--V04  =  5     Var--V05  =  6     Var--V06  =  3     Var--V07  =  8     Var--V08  =  7     Var--V10  =  7     Var--V11  =  6     Var--V12  =  8     Var--V13  =  2     Var--V14  =  4     Var--V15  =  3     Var--V16  =  5     Var--V17  =  1     Var--V18  =  9     Var--V20  =  5     Var--V21  =  1     Var--V22  =  3     Var--V23  =  7     Var--V24  =  8     Var--V25  =  9     Var--V26  =  2     Var--V27  =  6     Var--V28  =  4     Var--V30  =  3     Var--V31  =  4     Var--V32  =  9     Var--V33  =  5     Var--V34  =  6     Var--V35  =  2     Var--V36  =  1     Var--V37  =  7     Var--V38  =  8     Var--V40  =  1     Var--V41  =  5     Var--V42  =  6     Var--V43  =  3     Var--V44  =  7     Var--V45  =  8     Var--V46  =  4     Var--V47  =  9     Var--V48  =  2     Var--V50  =  8     Var--V51  =  7     Var--V52  =  2     Var--V53  =  4     Var--V54  =  9     Var--V55  =  1     Var--V56  =  6     Var--V57  =  3     Var--V58  =  5     Var--V60  =  6     Var--V61  =  9     Var--V62  =  5     Var--V63  =  8     Var--V64  =  1     Var--V65  =  4     Var--V66  =  7     Var--V67  =  2     Var--V68  =  3     Var--V70  =  2     Var--V71  =  8     Var--V72  =  7     Var--V73  =  6     Var--V74  =  3     Var--V75  =  5     Var--V76  =  9     Var--V77  =  4     Var--V78  =  1     Var--V80  =  4     Var--V81  =  3     Var--V82  =  1     Var--V83  =  9     Var--V84  =  2     Var--V85  =  7     Var--V86  =  8     Var--V87  =  5     Var--V88  =  6     
+bt_search finished
+Search made 3429 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.12558025199999978
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  9     Var--V01  =  3     Var--V02  =  7     Var--V03  =  6     Var--V04  =  4     Var--V05  =  8     Var--V06  =  5     Var--V07  =  1     Var--V08  =  2     Var--V10  =  2     Var--V11  =  5     Var--V12  =  8     Var--V13  =  3     Var--V14  =  7     Var--V15  =  1     Var--V16  =  4     Var--V17  =  6     Var--V18  =  9     Var--V20  =  4     Var--V21  =  6     Var--V22  =  1     Var--V23  =  2     Var--V24  =  5     Var--V25  =  9     Var--V26  =  3     Var--V27  =  7     Var--V28  =  8     Var--V30  =  1     Var--V31  =  2     Var--V32  =  3     Var--V33  =  7     Var--V34  =  6     Var--V35  =  4     Var--V36  =  8     Var--V37  =  9     Var--V38  =  5     Var--V40  =  5     Var--V41  =  4     Var--V42  =  9     Var--V43  =  8     Var--V44  =  1     Var--V45  =  3     Var--V46  =  7     Var--V47  =  2     Var--V48  =  6     Var--V50  =  7     Var--V51  =  8     Var--V52  =  6     Var--V53  =  5     Var--V54  =  9     Var--V55  =  2     Var--V56  =  1     Var--V57  =  3     Var--V58  =  4     Var--V60  =  6     Var--V61  =  9     Var--V62  =  5     Var--V63  =  4     Var--V64  =  3     Var--V65  =  7     Var--V66  =  2     Var--V67  =  8     Var--V68  =  1     Var--V70  =  8     Var--V71  =  7     Var--V72  =  4     Var--V73  =  1     Var--V74  =  2     Var--V75  =  6     Var--V76  =  9     Var--V77  =  5     Var--V78  =  3     Var--V80  =  3     Var--V81  =  1     Var--V82  =  2     Var--V83  =  9     Var--V84  =  8     Var--V85  =  5     Var--V86  =  6     Var--V87  =  4     Var--V88  =  7     
+bt_search finished
+Search made 7497 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.008739293000000092
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  3     Var--V01  =  5     Var--V02  =  2     Var--V03  =  4     Var--V04  =  6     Var--V05  =  9     Var--V06  =  7     Var--V07  =  8     Var--V08  =  1     Var--V10  =  4     Var--V11  =  6     Var--V12  =  8     Var--V13  =  5     Var--V14  =  7     Var--V15  =  1     Var--V16  =  3     Var--V17  =  9     Var--V18  =  2     Var--V20  =  1     Var--V21  =  7     Var--V22  =  9     Var--V23  =  8     Var--V24  =  2     Var--V25  =  3     Var--V26  =  4     Var--V27  =  5     Var--V28  =  6     Var--V30  =  9     Var--V31  =  8     Var--V32  =  7     Var--V33  =  3     Var--V34  =  1     Var--V35  =  2     Var--V36  =  5     Var--V37  =  6     Var--V38  =  4     Var--V40  =  2     Var--V41  =  4     Var--V42  =  1     Var--V43  =  9     Var--V44  =  5     Var--V45  =  6     Var--V46  =  8     Var--V47  =  7     Var--V48  =  3     Var--V50  =  5     Var--V51  =  3     Var--V52  =  6     Var--V53  =  7     Var--V54  =  4     Var--V55  =  8     Var--V56  =  1     Var--V57  =  2     Var--V58  =  9     Var--V60  =  8     Var--V61  =  2     Var--V62  =  4     Var--V63  =  6     Var--V64  =  3     Var--V65  =  5     Var--V66  =  9     Var--V67  =  1     Var--V68  =  7     Var--V70  =  7     Var--V71  =  1     Var--V72  =  5     Var--V73  =  2     Var--V74  =  9     Var--V75  =  4     Var--V76  =  6     Var--V77  =  3     Var--V78  =  8     Var--V80  =  6     Var--V81  =  9     Var--V82  =  3     Var--V83  =  1     Var--V84  =  8     Var--V85  =  7     Var--V86  =  2     Var--V87  =  4     Var--V88  =  5     
+bt_search finished
+Search made 215 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.29466144399999994
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  2     Var--V01  =  7     Var--V02  =  3     Var--V03  =  4     Var--V04  =  8     Var--V05  =  1     Var--V06  =  9     Var--V07  =  6     Var--V08  =  5     Var--V10  =  9     Var--V11  =  1     Var--V12  =  6     Var--V13  =  2     Var--V14  =  7     Var--V15  =  5     Var--V16  =  4     Var--V17  =  3     Var--V18  =  8     Var--V20  =  5     Var--V21  =  4     Var--V22  =  8     Var--V23  =  6     Var--V24  =  9     Var--V25  =  3     Var--V26  =  1     Var--V27  =  2     Var--V28  =  7     Var--V30  =  8     Var--V31  =  5     Var--V32  =  9     Var--V33  =  3     Var--V34  =  4     Var--V35  =  7     Var--V36  =  6     Var--V37  =  1     Var--V38  =  2     Var--V40  =  3     Var--V41  =  6     Var--V42  =  7     Var--V43  =  5     Var--V44  =  1     Var--V45  =  2     Var--V46  =  8     Var--V47  =  4     Var--V48  =  9     Var--V50  =  1     Var--V51  =  2     Var--V52  =  4     Var--V53  =  9     Var--V54  =  6     Var--V55  =  8     Var--V56  =  7     Var--V57  =  5     Var--V58  =  3     Var--V60  =  4     Var--V61  =  3     Var--V62  =  1     Var--V63  =  8     Var--V64  =  2     Var--V65  =  9     Var--V66  =  5     Var--V67  =  7     Var--V68  =  6     Var--V70  =  6     Var--V71  =  8     Var--V72  =  5     Var--V73  =  7     Var--V74  =  3     Var--V75  =  4     Var--V76  =  2     Var--V77  =  9     Var--V78  =  1     Var--V80  =  7     Var--V81  =  9     Var--V82  =  2     Var--V83  =  1     Var--V84  =  5     Var--V85  =  6     Var--V86  =  3     Var--V87  =  8     Var--V88  =  4     
+bt_search finished
+Search made 16875 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.007718474999999891
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  1     Var--V01  =  3     Var--V02  =  6     Var--V03  =  2     Var--V04  =  5     Var--V05  =  9     Var--V06  =  7     Var--V07  =  4     Var--V08  =  8     Var--V10  =  7     Var--V11  =  2     Var--V12  =  5     Var--V13  =  4     Var--V14  =  1     Var--V15  =  8     Var--V16  =  9     Var--V17  =  3     Var--V18  =  6     Var--V20  =  4     Var--V21  =  8     Var--V22  =  9     Var--V23  =  3     Var--V24  =  6     Var--V25  =  7     Var--V26  =  1     Var--V27  =  5     Var--V28  =  2     Var--V30  =  3     Var--V31  =  6     Var--V32  =  4     Var--V33  =  7     Var--V34  =  8     Var--V35  =  5     Var--V36  =  2     Var--V37  =  1     Var--V38  =  9     Var--V40  =  5     Var--V41  =  1     Var--V42  =  8     Var--V43  =  6     Var--V44  =  9     Var--V45  =  2     Var--V46  =  3     Var--V47  =  7     Var--V48  =  4     Var--V50  =  9     Var--V51  =  7     Var--V52  =  2     Var--V53  =  1     Var--V54  =  3     Var--V55  =  4     Var--V56  =  6     Var--V57  =  8     Var--V58  =  5     Var--V60  =  2     Var--V61  =  4     Var--V62  =  1     Var--V63  =  5     Var--V64  =  7     Var--V65  =  6     Var--V66  =  8     Var--V67  =  9     Var--V68  =  3     Var--V70  =  8     Var--V71  =  5     Var--V72  =  3     Var--V73  =  9     Var--V74  =  2     Var--V75  =  1     Var--V76  =  4     Var--V77  =  6     Var--V78  =  7     Var--V80  =  6     Var--V81  =  9     Var--V82  =  7     Var--V83  =  8     Var--V84  =  4     Var--V85  =  3     Var--V86  =  5     Var--V87  =  2     Var--V88  =  1     
+bt_search finished
+Search made 217 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSPsudoku_csp_binary_model unsolved. Has no solutions
+bt_search finished
+Search made 20 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.12031516000000009
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  9     Var--V01  =  2     Var--V02  =  7     Var--V03  =  4     Var--V04  =  8     Var--V05  =  6     Var--V06  =  5     Var--V07  =  1     Var--V08  =  3     Var--V10  =  1     Var--V11  =  4     Var--V12  =  5     Var--V13  =  3     Var--V14  =  9     Var--V15  =  2     Var--V16  =  6     Var--V17  =  8     Var--V18  =  7     Var--V20  =  8     Var--V21  =  6     Var--V22  =  3     Var--V23  =  7     Var--V24  =  1     Var--V25  =  5     Var--V26  =  4     Var--V27  =  2     Var--V28  =  9     Var--V30  =  2     Var--V31  =  8     Var--V32  =  6     Var--V33  =  5     Var--V34  =  4     Var--V35  =  9     Var--V36  =  3     Var--V37  =  7     Var--V38  =  1     Var--V40  =  7     Var--V41  =  9     Var--V42  =  1     Var--V43  =  8     Var--V44  =  6     Var--V45  =  3     Var--V46  =  2     Var--V47  =  4     Var--V48  =  5     Var--V50  =  3     Var--V51  =  5     Var--V52  =  4     Var--V53  =  1     Var--V54  =  2     Var--V55  =  7     Var--V56  =  8     Var--V57  =  9     Var--V58  =  6     Var--V60  =  6     Var--V61  =  1     Var--V62  =  2     Var--V63  =  9     Var--V64  =  3     Var--V65  =  8     Var--V66  =  7     Var--V67  =  5     Var--V68  =  4     Var--V70  =  5     Var--V71  =  3     Var--V72  =  9     Var--V73  =  2     Var--V74  =  7     Var--V75  =  4     Var--V76  =  1     Var--V77  =  6     Var--V78  =  8     Var--V80  =  4     Var--V81  =  7     Var--V82  =  8     Var--V83  =  6     Var--V84  =  5     Var--V85  =  1     Var--V86  =  9     Var--V87  =  3     Var--V88  =  2     
+bt_search finished
+Search made 6918 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.8316596709999997
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  8     Var--V01  =  4     Var--V02  =  2     Var--V03  =  1     Var--V04  =  6     Var--V05  =  5     Var--V06  =  3     Var--V07  =  9     Var--V08  =  7     Var--V10  =  9     Var--V11  =  1     Var--V12  =  5     Var--V13  =  2     Var--V14  =  3     Var--V15  =  7     Var--V16  =  8     Var--V17  =  4     Var--V18  =  6     Var--V20  =  7     Var--V21  =  3     Var--V22  =  6     Var--V23  =  4     Var--V24  =  8     Var--V25  =  9     Var--V26  =  1     Var--V27  =  5     Var--V28  =  2     Var--V30  =  1     Var--V31  =  8     Var--V32  =  7     Var--V33  =  9     Var--V34  =  5     Var--V35  =  2     Var--V36  =  4     Var--V37  =  6     Var--V38  =  3     Var--V40  =  6     Var--V41  =  9     Var--V42  =  4     Var--V43  =  3     Var--V44  =  1     Var--V45  =  8     Var--V46  =  7     Var--V47  =  2     Var--V48  =  5     Var--V50  =  2     Var--V51  =  5     Var--V52  =  3     Var--V53  =  6     Var--V54  =  7     Var--V55  =  4     Var--V56  =  9     Var--V57  =  8     Var--V58  =  1     Var--V60  =  3     Var--V61  =  6     Var--V62  =  8     Var--V63  =  5     Var--V64  =  9     Var--V65  =  1     Var--V66  =  2     Var--V67  =  7     Var--V68  =  4     Var--V70  =  4     Var--V71  =  7     Var--V72  =  1     Var--V73  =  8     Var--V74  =  2     Var--V75  =  6     Var--V76  =  5     Var--V77  =  3     Var--V78  =  9     Var--V80  =  5     Var--V81  =  2     Var--V82  =  9     Var--V83  =  7     Var--V84  =  4     Var--V85  =  3     Var--V86  =  6     Var--V87  =  1     Var--V88  =  8     
+bt_search finished
+Search made 49534 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.179400008
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  3     Var--V01  =  8     Var--V02  =  6     Var--V03  =  4     Var--V04  =  1     Var--V05  =  2     Var--V06  =  7     Var--V07  =  9     Var--V08  =  5     Var--V10  =  4     Var--V11  =  5     Var--V12  =  7     Var--V13  =  3     Var--V14  =  9     Var--V15  =  6     Var--V16  =  1     Var--V17  =  2     Var--V18  =  8     Var--V20  =  2     Var--V21  =  1     Var--V22  =  9     Var--V23  =  8     Var--V24  =  7     Var--V25  =  5     Var--V26  =  4     Var--V27  =  6     Var--V28  =  3     Var--V30  =  8     Var--V31  =  3     Var--V32  =  5     Var--V33  =  1     Var--V34  =  2     Var--V35  =  4     Var--V36  =  6     Var--V37  =  7     Var--V38  =  9     Var--V40  =  9     Var--V41  =  7     Var--V42  =  1     Var--V43  =  6     Var--V44  =  5     Var--V45  =  3     Var--V46  =  2     Var--V47  =  8     Var--V48  =  4     Var--V50  =  6     Var--V51  =  2     Var--V52  =  4     Var--V53  =  7     Var--V54  =  8     Var--V55  =  9     Var--V56  =  3     Var--V57  =  5     Var--V58  =  1     Var--V60  =  5     Var--V61  =  9     Var--V62  =  3     Var--V63  =  2     Var--V64  =  6     Var--V65  =  1     Var--V66  =  8     Var--V67  =  4     Var--V68  =  7     Var--V70  =  1     Var--V71  =  6     Var--V72  =  8     Var--V73  =  5     Var--V74  =  4     Var--V75  =  7     Var--V76  =  9     Var--V77  =  3     Var--V78  =  2     Var--V80  =  7     Var--V81  =  4     Var--V82  =  2     Var--V83  =  9     Var--V84  =  3     Var--V85  =  8     Var--V86  =  5     Var--V87  =  1     Var--V88  =  6     
+bt_search finished
+Search made 10176 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.0771556870000003
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  2     Var--V01  =  8     Var--V02  =  1     Var--V03  =  9     Var--V04  =  6     Var--V05  =  4     Var--V06  =  3     Var--V07  =  5     Var--V08  =  7     Var--V10  =  3     Var--V11  =  4     Var--V12  =  7     Var--V13  =  5     Var--V14  =  1     Var--V15  =  2     Var--V16  =  8     Var--V17  =  6     Var--V18  =  9     Var--V20  =  6     Var--V21  =  9     Var--V22  =  5     Var--V23  =  7     Var--V24  =  3     Var--V25  =  8     Var--V26  =  4     Var--V27  =  1     Var--V28  =  2     Var--V30  =  9     Var--V31  =  3     Var--V32  =  6     Var--V33  =  2     Var--V34  =  8     Var--V35  =  7     Var--V36  =  1     Var--V37  =  4     Var--V38  =  5     Var--V40  =  7     Var--V41  =  5     Var--V42  =  8     Var--V43  =  1     Var--V44  =  4     Var--V45  =  3     Var--V46  =  2     Var--V47  =  9     Var--V48  =  6     Var--V50  =  4     Var--V51  =  1     Var--V52  =  2     Var--V53  =  6     Var--V54  =  5     Var--V55  =  9     Var--V56  =  7     Var--V57  =  3     Var--V58  =  8     Var--V60  =  8     Var--V61  =  7     Var--V62  =  3     Var--V63  =  4     Var--V64  =  9     Var--V65  =  5     Var--V66  =  6     Var--V67  =  2     Var--V68  =  1     Var--V70  =  5     Var--V71  =  6     Var--V72  =  4     Var--V73  =  8     Var--V74  =  2     Var--V75  =  1     Var--V76  =  9     Var--V77  =  7     Var--V78  =  3     Var--V80  =  1     Var--V81  =  2     Var--V82  =  9     Var--V83  =  3     Var--V84  =  7     Var--V85  =  6     Var--V86  =  5     Var--V87  =  8     Var--V88  =  4     
+bt_search finished
+Search made 4247 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.06053385500000008
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  9     Var--V01  =  2     Var--V02  =  4     Var--V03  =  1     Var--V04  =  5     Var--V05  =  6     Var--V06  =  3     Var--V07  =  8     Var--V08  =  7     Var--V10  =  7     Var--V11  =  6     Var--V12  =  8     Var--V13  =  2     Var--V14  =  4     Var--V15  =  3     Var--V16  =  5     Var--V17  =  1     Var--V18  =  9     Var--V20  =  5     Var--V21  =  1     Var--V22  =  3     Var--V23  =  7     Var--V24  =  8     Var--V25  =  9     Var--V26  =  2     Var--V27  =  6     Var--V28  =  4     Var--V30  =  3     Var--V31  =  4     Var--V32  =  9     Var--V33  =  5     Var--V34  =  6     Var--V35  =  2     Var--V36  =  1     Var--V37  =  7     Var--V38  =  8     Var--V40  =  1     Var--V41  =  5     Var--V42  =  6     Var--V43  =  3     Var--V44  =  7     Var--V45  =  8     Var--V46  =  4     Var--V47  =  9     Var--V48  =  2     Var--V50  =  8     Var--V51  =  7     Var--V52  =  2     Var--V53  =  4     Var--V54  =  9     Var--V55  =  1     Var--V56  =  6     Var--V57  =  3     Var--V58  =  5     Var--V60  =  6     Var--V61  =  9     Var--V62  =  5     Var--V63  =  8     Var--V64  =  1     Var--V65  =  4     Var--V66  =  7     Var--V67  =  2     Var--V68  =  3     Var--V70  =  2     Var--V71  =  8     Var--V72  =  7     Var--V73  =  6     Var--V74  =  3     Var--V75  =  5     Var--V76  =  9     Var--V77  =  4     Var--V78  =  1     Var--V80  =  4     Var--V81  =  3     Var--V82  =  1     Var--V83  =  9     Var--V84  =  2     Var--V85  =  7     Var--V86  =  8     Var--V87  =  5     Var--V88  =  6     
+bt_search finished
+Search made 3453 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.12673362999999993
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  9     Var--V01  =  3     Var--V02  =  7     Var--V03  =  6     Var--V04  =  4     Var--V05  =  8     Var--V06  =  5     Var--V07  =  1     Var--V08  =  2     Var--V10  =  2     Var--V11  =  5     Var--V12  =  8     Var--V13  =  3     Var--V14  =  7     Var--V15  =  1     Var--V16  =  4     Var--V17  =  6     Var--V18  =  9     Var--V20  =  4     Var--V21  =  6     Var--V22  =  1     Var--V23  =  2     Var--V24  =  5     Var--V25  =  9     Var--V26  =  3     Var--V27  =  7     Var--V28  =  8     Var--V30  =  1     Var--V31  =  2     Var--V32  =  3     Var--V33  =  7     Var--V34  =  6     Var--V35  =  4     Var--V36  =  8     Var--V37  =  9     Var--V38  =  5     Var--V40  =  5     Var--V41  =  4     Var--V42  =  9     Var--V43  =  8     Var--V44  =  1     Var--V45  =  3     Var--V46  =  7     Var--V47  =  2     Var--V48  =  6     Var--V50  =  7     Var--V51  =  8     Var--V52  =  6     Var--V53  =  5     Var--V54  =  9     Var--V55  =  2     Var--V56  =  1     Var--V57  =  3     Var--V58  =  4     Var--V60  =  6     Var--V61  =  9     Var--V62  =  5     Var--V63  =  4     Var--V64  =  3     Var--V65  =  7     Var--V66  =  2     Var--V67  =  8     Var--V68  =  1     Var--V70  =  8     Var--V71  =  7     Var--V72  =  4     Var--V73  =  1     Var--V74  =  2     Var--V75  =  6     Var--V76  =  9     Var--V77  =  5     Var--V78  =  3     Var--V80  =  3     Var--V81  =  1     Var--V82  =  2     Var--V83  =  9     Var--V84  =  8     Var--V85  =  5     Var--V86  =  6     Var--V87  =  4     Var--V88  =  7     
+bt_search finished
+Search made 7527 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+=======================================================
+BT
+CSP sudoku_csp_binary_model solved. CPU Time used = 0.0076922339999998535
+CSP sudoku_csp_binary_model  Assignments = 
+Var--V00  =  3     Var--V01  =  5     Var--V02  =  2     Var--V03  =  4     Var--V04  =  6     Var--V05  =  9     Var--V06  =  7     Var--V07  =  8     Var--V08  =  1     Var--V10  =  4     Var--V11  =  6     Var--V12  =  8     Var--V13  =  5     Var--V14  =  7     Var--V15  =  1     Var--V16  =  3     Var--V17  =  9     Var--V18  =  2     Var--V20  =  1     Var--V21  =  7     Var--V22  =  9     Var--V23  =  8     Var--V24  =  2     Var--V25  =  3     Var--V26  =  4     Var--V27  =  5     Var--V28  =  6     Var--V30  =  9     Var--V31  =  8     Var--V32  =  7     Var--V33  =  3     Var--V34  =  1     Var--V35  =  2     Var--V36  =  5     Var--V37  =  6     Var--V38  =  4     Var--V40  =  2     Var--V41  =  4     Var--V42  =  1     Var--V43  =  9     Var--V44  =  5     Var--V45  =  6     Var--V46  =  8     Var--V47  =  7     Var--V48  =  3     Var--V50  =  5     Var--V51  =  3     Var--V52  =  6     Var--V53  =  7     Var--V54  =  4     Var--V55  =  8     Var--V56  =  1     Var--V57  =  2     Var--V58  =  9     Var--V60  =  8     Var--V61  =  2     Var--V62  =  4     Var--V63  =  6     Var--V64  =  3     Var--V65  =  5     Var--V66  =  9     Var--V67  =  1     Var--V68  =  7     Var--V70  =  7     Var--V71  =  1     Var--V72  =  5     Var--V73  =  2     Var--V74  =  9     Var--V75  =  4     Var--V76  =  6     Var--V77  =  3     Var--V78  =  8     Var--V80  =  6     Var--V81  =  9     Var--V82  =  3     Var--V83  =  1     Var--V84  =  8     Var--V85  =  7     Var--V86  =  2     Var--V87  =  4     Var--V88  =  5     
+bt_search finished
+Search made 234 variable assignments and pruned 0 variable values
+=======================================================
+ 

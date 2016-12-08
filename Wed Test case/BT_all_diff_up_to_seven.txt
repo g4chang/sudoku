@@ -1,0 +1,861 @@
+3.5.2 (default, Sep 14 2016, 16:12:48) 
+[GCC 4.8.4]
+Python Type "help", "copyright", "credits" or "license" for more information.
+[evaluate testcase.py]
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[2]
+[7]
+[3]
+[4]
+[8]
+[1]
+[9]
+[6]
+[5]
+Constrain 0  ---  [(2, 7, 3, 4, 8, 1, 9, 6, 5)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 0.003473975000000004
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  2     Var--(0, 1)  =  7     Var--(0, 2)  =  3     Var--(0, 3)  =  4     Var--(0, 4)  =  8     Var--(0, 5)  =  1     Var--(0, 6)  =  9     Var--(0, 7)  =  6     Var--(0, 8)  =  5     Var--(1, 0)  =  9     Var--(1, 1)  =  1     Var--(1, 2)  =  6     Var--(1, 3)  =  2     Var--(1, 4)  =  7     Var--(1, 5)  =  5     Var--(1, 6)  =  4     Var--(1, 7)  =  3     Var--(1, 8)  =  8     Var--(2, 0)  =  5     Var--(2, 1)  =  4     Var--(2, 2)  =  8     Var--(2, 3)  =  6     Var--(2, 4)  =  9     Var--(2, 5)  =  3     Var--(2, 6)  =  1     Var--(2, 7)  =  2     Var--(2, 8)  =  7     Var--(3, 0)  =  8     Var--(3, 1)  =  5     Var--(3, 2)  =  9     Var--(3, 3)  =  3     Var--(3, 4)  =  4     Var--(3, 5)  =  7     Var--(3, 6)  =  6     Var--(3, 7)  =  1     Var--(3, 8)  =  2     Var--(4, 0)  =  3     Var--(4, 1)  =  6     Var--(4, 2)  =  7     Var--(4, 3)  =  5     Var--(4, 4)  =  1     Var--(4, 5)  =  2     Var--(4, 6)  =  8     Var--(4, 7)  =  4     Var--(4, 8)  =  9     Var--(5, 0)  =  1     Var--(5, 1)  =  2     Var--(5, 2)  =  4     Var--(5, 3)  =  9     Var--(5, 4)  =  6     Var--(5, 5)  =  8     Var--(5, 6)  =  7     Var--(5, 7)  =  5     Var--(5, 8)  =  3     Var--(6, 0)  =  4     Var--(6, 1)  =  3     Var--(6, 2)  =  1     Var--(6, 3)  =  8     Var--(6, 4)  =  2     Var--(6, 5)  =  9     Var--(6, 6)  =  5     Var--(6, 7)  =  7     Var--(6, 8)  =  6     Var--(7, 0)  =  6     Var--(7, 1)  =  8     Var--(7, 2)  =  5     Var--(7, 3)  =  7     Var--(7, 4)  =  3     Var--(7, 5)  =  4     Var--(7, 6)  =  2     Var--(7, 7)  =  9     Var--(7, 8)  =  1     Var--(8, 0)  =  7     Var--(8, 1)  =  9     Var--(8, 2)  =  2     Var--(8, 3)  =  1     Var--(8, 4)  =  5     Var--(8, 5)  =  6     Var--(8, 6)  =  3     Var--(8, 7)  =  8     Var--(8, 8)  =  4     
+bt_search finished
+Search made 106 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[1]
+[3]
+[6]
+[2]
+[5]
+[9]
+[7]
+[4]
+[8]
+Constrain 0  ---  [(1, 3, 6, 2, 5, 9, 7, 4, 8)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 0.0035773149999999976
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  1     Var--(0, 1)  =  3     Var--(0, 2)  =  6     Var--(0, 3)  =  2     Var--(0, 4)  =  5     Var--(0, 5)  =  9     Var--(0, 6)  =  7     Var--(0, 7)  =  4     Var--(0, 8)  =  8     Var--(1, 0)  =  7     Var--(1, 1)  =  2     Var--(1, 2)  =  5     Var--(1, 3)  =  4     Var--(1, 4)  =  1     Var--(1, 5)  =  8     Var--(1, 6)  =  9     Var--(1, 7)  =  3     Var--(1, 8)  =  6     Var--(2, 0)  =  4     Var--(2, 1)  =  8     Var--(2, 2)  =  9     Var--(2, 3)  =  3     Var--(2, 4)  =  6     Var--(2, 5)  =  7     Var--(2, 6)  =  1     Var--(2, 7)  =  5     Var--(2, 8)  =  2     Var--(3, 0)  =  3     Var--(3, 1)  =  6     Var--(3, 2)  =  4     Var--(3, 3)  =  7     Var--(3, 4)  =  8     Var--(3, 5)  =  5     Var--(3, 6)  =  2     Var--(3, 7)  =  1     Var--(3, 8)  =  9     Var--(4, 0)  =  5     Var--(4, 1)  =  1     Var--(4, 2)  =  8     Var--(4, 3)  =  6     Var--(4, 4)  =  9     Var--(4, 5)  =  2     Var--(4, 6)  =  3     Var--(4, 7)  =  7     Var--(4, 8)  =  4     Var--(5, 0)  =  9     Var--(5, 1)  =  7     Var--(5, 2)  =  2     Var--(5, 3)  =  1     Var--(5, 4)  =  3     Var--(5, 5)  =  4     Var--(5, 6)  =  6     Var--(5, 7)  =  8     Var--(5, 8)  =  5     Var--(6, 0)  =  2     Var--(6, 1)  =  4     Var--(6, 2)  =  1     Var--(6, 3)  =  5     Var--(6, 4)  =  7     Var--(6, 5)  =  6     Var--(6, 6)  =  8     Var--(6, 7)  =  9     Var--(6, 8)  =  3     Var--(7, 0)  =  8     Var--(7, 1)  =  5     Var--(7, 2)  =  3     Var--(7, 3)  =  9     Var--(7, 4)  =  2     Var--(7, 5)  =  1     Var--(7, 6)  =  4     Var--(7, 7)  =  6     Var--(7, 8)  =  7     Var--(8, 0)  =  6     Var--(8, 1)  =  9     Var--(8, 2)  =  7     Var--(8, 3)  =  8     Var--(8, 4)  =  4     Var--(8, 5)  =  3     Var--(8, 6)  =  5     Var--(8, 7)  =  2     Var--(8, 8)  =  1     
+bt_search finished
+Search made 112 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[9]
+[2]
+[3]
+[8]
+[4]
+[6]
+[7]
+[1]
+[5]
+Constrain 0  ---  [(9, 2, 3, 8, 4, 6, 7, 1, 5)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  0
+Constrain 2  ---  0
+Constrain 3  ---  0
+Constrain 4  ---  0
+Constrain 5  ---  0
+Constrain 6  ---  0
+Constrain 7  ---  0
+Constrain 8  ---  0
+col finished...
+Constrain 0  ---  0
+Constrain 1  ---  0
+Constrain 2  ---  0
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSPsudoku_csp_all_diff_model unsolved. Has no solutions
+bt_search finished
+Search made 21 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[9]
+[2]
+[7]
+[4]
+[8]
+[6]
+[5]
+[1]
+[3]
+Constrain 0  ---  [(9, 2, 7, 4, 8, 6, 5, 1, 3)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 0.0034120319999999815
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  9     Var--(0, 1)  =  2     Var--(0, 2)  =  7     Var--(0, 3)  =  4     Var--(0, 4)  =  8     Var--(0, 5)  =  6     Var--(0, 6)  =  5     Var--(0, 7)  =  1     Var--(0, 8)  =  3     Var--(1, 0)  =  1     Var--(1, 1)  =  4     Var--(1, 2)  =  5     Var--(1, 3)  =  3     Var--(1, 4)  =  9     Var--(1, 5)  =  2     Var--(1, 6)  =  6     Var--(1, 7)  =  8     Var--(1, 8)  =  7     Var--(2, 0)  =  8     Var--(2, 1)  =  6     Var--(2, 2)  =  3     Var--(2, 3)  =  7     Var--(2, 4)  =  1     Var--(2, 5)  =  5     Var--(2, 6)  =  4     Var--(2, 7)  =  2     Var--(2, 8)  =  9     Var--(3, 0)  =  2     Var--(3, 1)  =  8     Var--(3, 2)  =  6     Var--(3, 3)  =  5     Var--(3, 4)  =  4     Var--(3, 5)  =  9     Var--(3, 6)  =  3     Var--(3, 7)  =  7     Var--(3, 8)  =  1     Var--(4, 0)  =  7     Var--(4, 1)  =  9     Var--(4, 2)  =  1     Var--(4, 3)  =  8     Var--(4, 4)  =  6     Var--(4, 5)  =  3     Var--(4, 6)  =  2     Var--(4, 7)  =  4     Var--(4, 8)  =  5     Var--(5, 0)  =  3     Var--(5, 1)  =  5     Var--(5, 2)  =  4     Var--(5, 3)  =  1     Var--(5, 4)  =  2     Var--(5, 5)  =  7     Var--(5, 6)  =  8     Var--(5, 7)  =  9     Var--(5, 8)  =  6     Var--(6, 0)  =  6     Var--(6, 1)  =  1     Var--(6, 2)  =  2     Var--(6, 3)  =  9     Var--(6, 4)  =  3     Var--(6, 5)  =  8     Var--(6, 6)  =  7     Var--(6, 7)  =  5     Var--(6, 8)  =  4     Var--(7, 0)  =  5     Var--(7, 1)  =  3     Var--(7, 2)  =  9     Var--(7, 3)  =  2     Var--(7, 4)  =  7     Var--(7, 5)  =  4     Var--(7, 6)  =  1     Var--(7, 7)  =  6     Var--(7, 8)  =  8     Var--(8, 0)  =  4     Var--(8, 1)  =  7     Var--(8, 2)  =  8     Var--(8, 3)  =  6     Var--(8, 4)  =  5     Var--(8, 5)  =  1     Var--(8, 6)  =  9     Var--(8, 7)  =  3     Var--(8, 8)  =  2     
+bt_search finished
+Search made 105 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[8]
+[4]
+[2]
+[1]
+[6]
+[5]
+[3]
+[9]
+[7]
+Constrain 0  ---  [(8, 4, 2, 1, 6, 5, 3, 9, 7)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 0.0035333449999999933
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  8     Var--(0, 1)  =  4     Var--(0, 2)  =  2     Var--(0, 3)  =  1     Var--(0, 4)  =  6     Var--(0, 5)  =  5     Var--(0, 6)  =  3     Var--(0, 7)  =  9     Var--(0, 8)  =  7     Var--(1, 0)  =  9     Var--(1, 1)  =  1     Var--(1, 2)  =  5     Var--(1, 3)  =  2     Var--(1, 4)  =  3     Var--(1, 5)  =  7     Var--(1, 6)  =  8     Var--(1, 7)  =  4     Var--(1, 8)  =  6     Var--(2, 0)  =  7     Var--(2, 1)  =  3     Var--(2, 2)  =  6     Var--(2, 3)  =  4     Var--(2, 4)  =  8     Var--(2, 5)  =  9     Var--(2, 6)  =  1     Var--(2, 7)  =  5     Var--(2, 8)  =  2     Var--(3, 0)  =  1     Var--(3, 1)  =  8     Var--(3, 2)  =  7     Var--(3, 3)  =  9     Var--(3, 4)  =  5     Var--(3, 5)  =  2     Var--(3, 6)  =  4     Var--(3, 7)  =  6     Var--(3, 8)  =  3     Var--(4, 0)  =  6     Var--(4, 1)  =  9     Var--(4, 2)  =  4     Var--(4, 3)  =  3     Var--(4, 4)  =  1     Var--(4, 5)  =  8     Var--(4, 6)  =  7     Var--(4, 7)  =  2     Var--(4, 8)  =  5     Var--(5, 0)  =  2     Var--(5, 1)  =  5     Var--(5, 2)  =  3     Var--(5, 3)  =  6     Var--(5, 4)  =  7     Var--(5, 5)  =  4     Var--(5, 6)  =  9     Var--(5, 7)  =  8     Var--(5, 8)  =  1     Var--(6, 0)  =  3     Var--(6, 1)  =  6     Var--(6, 2)  =  8     Var--(6, 3)  =  5     Var--(6, 4)  =  9     Var--(6, 5)  =  1     Var--(6, 6)  =  2     Var--(6, 7)  =  7     Var--(6, 8)  =  4     Var--(7, 0)  =  4     Var--(7, 1)  =  7     Var--(7, 2)  =  1     Var--(7, 3)  =  8     Var--(7, 4)  =  2     Var--(7, 5)  =  6     Var--(7, 6)  =  5     Var--(7, 7)  =  3     Var--(7, 8)  =  9     Var--(8, 0)  =  5     Var--(8, 1)  =  2     Var--(8, 2)  =  9     Var--(8, 3)  =  7     Var--(8, 4)  =  4     Var--(8, 5)  =  3     Var--(8, 6)  =  6     Var--(8, 7)  =  1     Var--(8, 8)  =  8     
+bt_search finished
+Search made 112 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[3]
+[8]
+[6]
+[4]
+[1]
+[2]
+[7]
+[9]
+[5]
+Constrain 0  ---  [(3, 8, 6, 4, 1, 2, 7, 9, 5)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 0.003419122999999996
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  3     Var--(0, 1)  =  8     Var--(0, 2)  =  6     Var--(0, 3)  =  4     Var--(0, 4)  =  1     Var--(0, 5)  =  2     Var--(0, 6)  =  7     Var--(0, 7)  =  9     Var--(0, 8)  =  5     Var--(1, 0)  =  4     Var--(1, 1)  =  5     Var--(1, 2)  =  7     Var--(1, 3)  =  3     Var--(1, 4)  =  9     Var--(1, 5)  =  6     Var--(1, 6)  =  1     Var--(1, 7)  =  2     Var--(1, 8)  =  8     Var--(2, 0)  =  2     Var--(2, 1)  =  1     Var--(2, 2)  =  9     Var--(2, 3)  =  8     Var--(2, 4)  =  7     Var--(2, 5)  =  5     Var--(2, 6)  =  4     Var--(2, 7)  =  6     Var--(2, 8)  =  3     Var--(3, 0)  =  8     Var--(3, 1)  =  3     Var--(3, 2)  =  5     Var--(3, 3)  =  1     Var--(3, 4)  =  2     Var--(3, 5)  =  4     Var--(3, 6)  =  6     Var--(3, 7)  =  7     Var--(3, 8)  =  9     Var--(4, 0)  =  9     Var--(4, 1)  =  7     Var--(4, 2)  =  1     Var--(4, 3)  =  6     Var--(4, 4)  =  5     Var--(4, 5)  =  3     Var--(4, 6)  =  2     Var--(4, 7)  =  8     Var--(4, 8)  =  4     Var--(5, 0)  =  6     Var--(5, 1)  =  2     Var--(5, 2)  =  4     Var--(5, 3)  =  7     Var--(5, 4)  =  8     Var--(5, 5)  =  9     Var--(5, 6)  =  3     Var--(5, 7)  =  5     Var--(5, 8)  =  1     Var--(6, 0)  =  5     Var--(6, 1)  =  9     Var--(6, 2)  =  3     Var--(6, 3)  =  2     Var--(6, 4)  =  6     Var--(6, 5)  =  1     Var--(6, 6)  =  8     Var--(6, 7)  =  4     Var--(6, 8)  =  7     Var--(7, 0)  =  1     Var--(7, 1)  =  6     Var--(7, 2)  =  8     Var--(7, 3)  =  5     Var--(7, 4)  =  4     Var--(7, 5)  =  7     Var--(7, 6)  =  9     Var--(7, 7)  =  3     Var--(7, 8)  =  2     Var--(8, 0)  =  7     Var--(8, 1)  =  4     Var--(8, 2)  =  2     Var--(8, 3)  =  9     Var--(8, 4)  =  3     Var--(8, 5)  =  8     Var--(8, 6)  =  5     Var--(8, 7)  =  1     Var--(8, 8)  =  6     
+bt_search finished
+Search made 113 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[2]
+[8]
+[1]
+[9]
+[6]
+[4]
+[3]
+[5]
+[7]
+Constrain 0  ---  [(2, 8, 1, 9, 6, 4, 3, 5, 7)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 0.003256412999999986
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  2     Var--(0, 1)  =  8     Var--(0, 2)  =  1     Var--(0, 3)  =  9     Var--(0, 4)  =  6     Var--(0, 5)  =  4     Var--(0, 6)  =  3     Var--(0, 7)  =  5     Var--(0, 8)  =  7     Var--(1, 0)  =  3     Var--(1, 1)  =  4     Var--(1, 2)  =  7     Var--(1, 3)  =  5     Var--(1, 4)  =  1     Var--(1, 5)  =  2     Var--(1, 6)  =  8     Var--(1, 7)  =  6     Var--(1, 8)  =  9     Var--(2, 0)  =  6     Var--(2, 1)  =  9     Var--(2, 2)  =  5     Var--(2, 3)  =  7     Var--(2, 4)  =  3     Var--(2, 5)  =  8     Var--(2, 6)  =  4     Var--(2, 7)  =  1     Var--(2, 8)  =  2     Var--(3, 0)  =  9     Var--(3, 1)  =  3     Var--(3, 2)  =  6     Var--(3, 3)  =  2     Var--(3, 4)  =  8     Var--(3, 5)  =  7     Var--(3, 6)  =  1     Var--(3, 7)  =  4     Var--(3, 8)  =  5     Var--(4, 0)  =  7     Var--(4, 1)  =  5     Var--(4, 2)  =  8     Var--(4, 3)  =  1     Var--(4, 4)  =  4     Var--(4, 5)  =  3     Var--(4, 6)  =  2     Var--(4, 7)  =  9     Var--(4, 8)  =  6     Var--(5, 0)  =  4     Var--(5, 1)  =  1     Var--(5, 2)  =  2     Var--(5, 3)  =  6     Var--(5, 4)  =  5     Var--(5, 5)  =  9     Var--(5, 6)  =  7     Var--(5, 7)  =  3     Var--(5, 8)  =  8     Var--(6, 0)  =  8     Var--(6, 1)  =  7     Var--(6, 2)  =  3     Var--(6, 3)  =  4     Var--(6, 4)  =  9     Var--(6, 5)  =  5     Var--(6, 6)  =  6     Var--(6, 7)  =  2     Var--(6, 8)  =  1     Var--(7, 0)  =  5     Var--(7, 1)  =  6     Var--(7, 2)  =  4     Var--(7, 3)  =  8     Var--(7, 4)  =  2     Var--(7, 5)  =  1     Var--(7, 6)  =  9     Var--(7, 7)  =  7     Var--(7, 8)  =  3     Var--(8, 0)  =  1     Var--(8, 1)  =  2     Var--(8, 2)  =  9     Var--(8, 3)  =  3     Var--(8, 4)  =  7     Var--(8, 5)  =  6     Var--(8, 6)  =  5     Var--(8, 7)  =  8     Var--(8, 8)  =  4     
+bt_search finished
+Search made 98 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[9]
+[2]
+[4]
+[1]
+[5]
+[6]
+[3]
+[8]
+[7]
+Constrain 0  ---  [(9, 2, 4, 1, 5, 6, 3, 8, 7)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 0.003314336000000001
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  9     Var--(0, 1)  =  2     Var--(0, 2)  =  4     Var--(0, 3)  =  1     Var--(0, 4)  =  5     Var--(0, 5)  =  6     Var--(0, 6)  =  3     Var--(0, 7)  =  8     Var--(0, 8)  =  7     Var--(1, 0)  =  7     Var--(1, 1)  =  6     Var--(1, 2)  =  8     Var--(1, 3)  =  2     Var--(1, 4)  =  4     Var--(1, 5)  =  3     Var--(1, 6)  =  5     Var--(1, 7)  =  1     Var--(1, 8)  =  9     Var--(2, 0)  =  5     Var--(2, 1)  =  1     Var--(2, 2)  =  3     Var--(2, 3)  =  7     Var--(2, 4)  =  8     Var--(2, 5)  =  9     Var--(2, 6)  =  2     Var--(2, 7)  =  6     Var--(2, 8)  =  4     Var--(3, 0)  =  3     Var--(3, 1)  =  4     Var--(3, 2)  =  9     Var--(3, 3)  =  5     Var--(3, 4)  =  6     Var--(3, 5)  =  2     Var--(3, 6)  =  1     Var--(3, 7)  =  7     Var--(3, 8)  =  8     Var--(4, 0)  =  1     Var--(4, 1)  =  5     Var--(4, 2)  =  6     Var--(4, 3)  =  3     Var--(4, 4)  =  7     Var--(4, 5)  =  8     Var--(4, 6)  =  4     Var--(4, 7)  =  9     Var--(4, 8)  =  2     Var--(5, 0)  =  8     Var--(5, 1)  =  7     Var--(5, 2)  =  2     Var--(5, 3)  =  4     Var--(5, 4)  =  9     Var--(5, 5)  =  1     Var--(5, 6)  =  6     Var--(5, 7)  =  3     Var--(5, 8)  =  5     Var--(6, 0)  =  6     Var--(6, 1)  =  9     Var--(6, 2)  =  5     Var--(6, 3)  =  8     Var--(6, 4)  =  1     Var--(6, 5)  =  4     Var--(6, 6)  =  7     Var--(6, 7)  =  2     Var--(6, 8)  =  3     Var--(7, 0)  =  2     Var--(7, 1)  =  8     Var--(7, 2)  =  7     Var--(7, 3)  =  6     Var--(7, 4)  =  3     Var--(7, 5)  =  5     Var--(7, 6)  =  9     Var--(7, 7)  =  4     Var--(7, 8)  =  1     Var--(8, 0)  =  4     Var--(8, 1)  =  3     Var--(8, 2)  =  1     Var--(8, 3)  =  9     Var--(8, 4)  =  2     Var--(8, 5)  =  7     Var--(8, 6)  =  8     Var--(8, 7)  =  5     Var--(8, 8)  =  6     
+bt_search finished
+Search made 107 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[9]
+[3]
+[7]
+[6]
+[4]
+[8]
+[5]
+[1]
+[2]
+Constrain 0  ---  [(9, 3, 7, 6, 4, 8, 5, 1, 2)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 0.0032998300000000036
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  9     Var--(0, 1)  =  3     Var--(0, 2)  =  7     Var--(0, 3)  =  6     Var--(0, 4)  =  4     Var--(0, 5)  =  8     Var--(0, 6)  =  5     Var--(0, 7)  =  1     Var--(0, 8)  =  2     Var--(1, 0)  =  2     Var--(1, 1)  =  5     Var--(1, 2)  =  8     Var--(1, 3)  =  3     Var--(1, 4)  =  7     Var--(1, 5)  =  1     Var--(1, 6)  =  4     Var--(1, 7)  =  6     Var--(1, 8)  =  9     Var--(2, 0)  =  4     Var--(2, 1)  =  6     Var--(2, 2)  =  1     Var--(2, 3)  =  2     Var--(2, 4)  =  5     Var--(2, 5)  =  9     Var--(2, 6)  =  3     Var--(2, 7)  =  7     Var--(2, 8)  =  8     Var--(3, 0)  =  1     Var--(3, 1)  =  2     Var--(3, 2)  =  3     Var--(3, 3)  =  7     Var--(3, 4)  =  6     Var--(3, 5)  =  4     Var--(3, 6)  =  8     Var--(3, 7)  =  9     Var--(3, 8)  =  5     Var--(4, 0)  =  5     Var--(4, 1)  =  4     Var--(4, 2)  =  9     Var--(4, 3)  =  8     Var--(4, 4)  =  1     Var--(4, 5)  =  3     Var--(4, 6)  =  7     Var--(4, 7)  =  2     Var--(4, 8)  =  6     Var--(5, 0)  =  7     Var--(5, 1)  =  8     Var--(5, 2)  =  6     Var--(5, 3)  =  5     Var--(5, 4)  =  9     Var--(5, 5)  =  2     Var--(5, 6)  =  1     Var--(5, 7)  =  3     Var--(5, 8)  =  4     Var--(6, 0)  =  6     Var--(6, 1)  =  9     Var--(6, 2)  =  5     Var--(6, 3)  =  4     Var--(6, 4)  =  3     Var--(6, 5)  =  7     Var--(6, 6)  =  2     Var--(6, 7)  =  8     Var--(6, 8)  =  1     Var--(7, 0)  =  8     Var--(7, 1)  =  7     Var--(7, 2)  =  4     Var--(7, 3)  =  1     Var--(7, 4)  =  2     Var--(7, 5)  =  6     Var--(7, 6)  =  9     Var--(7, 7)  =  5     Var--(7, 8)  =  3     Var--(8, 0)  =  3     Var--(8, 1)  =  1     Var--(8, 2)  =  2     Var--(8, 3)  =  9     Var--(8, 4)  =  8     Var--(8, 5)  =  5     Var--(8, 6)  =  6     Var--(8, 7)  =  4     Var--(8, 8)  =  7     
+bt_search finished
+Search made 106 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[3]
+[5]
+[2]
+[4]
+[6]
+[9]
+[7]
+[8]
+[1]
+Constrain 0  ---  [(3, 5, 2, 4, 6, 9, 7, 8, 1)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 0.0033411979999999897
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  3     Var--(0, 1)  =  5     Var--(0, 2)  =  2     Var--(0, 3)  =  4     Var--(0, 4)  =  6     Var--(0, 5)  =  9     Var--(0, 6)  =  7     Var--(0, 7)  =  8     Var--(0, 8)  =  1     Var--(1, 0)  =  4     Var--(1, 1)  =  6     Var--(1, 2)  =  8     Var--(1, 3)  =  5     Var--(1, 4)  =  7     Var--(1, 5)  =  1     Var--(1, 6)  =  3     Var--(1, 7)  =  9     Var--(1, 8)  =  2     Var--(2, 0)  =  1     Var--(2, 1)  =  7     Var--(2, 2)  =  9     Var--(2, 3)  =  8     Var--(2, 4)  =  2     Var--(2, 5)  =  3     Var--(2, 6)  =  4     Var--(2, 7)  =  5     Var--(2, 8)  =  6     Var--(3, 0)  =  9     Var--(3, 1)  =  8     Var--(3, 2)  =  7     Var--(3, 3)  =  3     Var--(3, 4)  =  1     Var--(3, 5)  =  2     Var--(3, 6)  =  5     Var--(3, 7)  =  6     Var--(3, 8)  =  4     Var--(4, 0)  =  2     Var--(4, 1)  =  4     Var--(4, 2)  =  1     Var--(4, 3)  =  9     Var--(4, 4)  =  5     Var--(4, 5)  =  6     Var--(4, 6)  =  8     Var--(4, 7)  =  7     Var--(4, 8)  =  3     Var--(5, 0)  =  5     Var--(5, 1)  =  3     Var--(5, 2)  =  6     Var--(5, 3)  =  7     Var--(5, 4)  =  4     Var--(5, 5)  =  8     Var--(5, 6)  =  1     Var--(5, 7)  =  2     Var--(5, 8)  =  9     Var--(6, 0)  =  8     Var--(6, 1)  =  2     Var--(6, 2)  =  4     Var--(6, 3)  =  6     Var--(6, 4)  =  3     Var--(6, 5)  =  5     Var--(6, 6)  =  9     Var--(6, 7)  =  1     Var--(6, 8)  =  7     Var--(7, 0)  =  7     Var--(7, 1)  =  1     Var--(7, 2)  =  5     Var--(7, 3)  =  2     Var--(7, 4)  =  9     Var--(7, 5)  =  4     Var--(7, 6)  =  6     Var--(7, 7)  =  3     Var--(7, 8)  =  8     Var--(8, 0)  =  6     Var--(8, 1)  =  9     Var--(8, 2)  =  3     Var--(8, 3)  =  1     Var--(8, 4)  =  8     Var--(8, 5)  =  7     Var--(8, 6)  =  2     Var--(8, 7)  =  4     Var--(8, 8)  =  5     
+bt_search finished
+Search made 102 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[2]
+[7]
+[3]
+[4]
+[8]
+[1]
+[9]
+[6]
+[5]
+Constrain 0  ---  [(2, 7, 3, 4, 8, 1, 9, 6, 5)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  2
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  2
+Constrain 7  ---  1
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 0.7645400990000001
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  2     Var--(0, 1)  =  7     Var--(0, 2)  =  3     Var--(0, 3)  =  4     Var--(0, 4)  =  8     Var--(0, 5)  =  1     Var--(0, 6)  =  9     Var--(0, 7)  =  6     Var--(0, 8)  =  5     Var--(1, 0)  =  9     Var--(1, 1)  =  1     Var--(1, 2)  =  6     Var--(1, 3)  =  2     Var--(1, 4)  =  7     Var--(1, 5)  =  5     Var--(1, 6)  =  4     Var--(1, 7)  =  3     Var--(1, 8)  =  8     Var--(2, 0)  =  5     Var--(2, 1)  =  4     Var--(2, 2)  =  8     Var--(2, 3)  =  6     Var--(2, 4)  =  9     Var--(2, 5)  =  3     Var--(2, 6)  =  1     Var--(2, 7)  =  2     Var--(2, 8)  =  7     Var--(3, 0)  =  8     Var--(3, 1)  =  5     Var--(3, 2)  =  9     Var--(3, 3)  =  3     Var--(3, 4)  =  4     Var--(3, 5)  =  7     Var--(3, 6)  =  6     Var--(3, 7)  =  1     Var--(3, 8)  =  2     Var--(4, 0)  =  3     Var--(4, 1)  =  6     Var--(4, 2)  =  7     Var--(4, 3)  =  5     Var--(4, 4)  =  1     Var--(4, 5)  =  2     Var--(4, 6)  =  8     Var--(4, 7)  =  4     Var--(4, 8)  =  9     Var--(5, 0)  =  1     Var--(5, 1)  =  2     Var--(5, 2)  =  4     Var--(5, 3)  =  9     Var--(5, 4)  =  6     Var--(5, 5)  =  8     Var--(5, 6)  =  7     Var--(5, 7)  =  5     Var--(5, 8)  =  3     Var--(6, 0)  =  4     Var--(6, 1)  =  3     Var--(6, 2)  =  1     Var--(6, 3)  =  8     Var--(6, 4)  =  2     Var--(6, 5)  =  9     Var--(6, 6)  =  5     Var--(6, 7)  =  7     Var--(6, 8)  =  6     Var--(7, 0)  =  6     Var--(7, 1)  =  8     Var--(7, 2)  =  5     Var--(7, 3)  =  7     Var--(7, 4)  =  3     Var--(7, 5)  =  4     Var--(7, 6)  =  2     Var--(7, 7)  =  9     Var--(7, 8)  =  1     Var--(8, 0)  =  7     Var--(8, 1)  =  9     Var--(8, 2)  =  2     Var--(8, 3)  =  1     Var--(8, 4)  =  5     Var--(8, 5)  =  6     Var--(8, 6)  =  3     Var--(8, 7)  =  8     Var--(8, 8)  =  4     
+bt_search finished
+Search made 84565 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[1]
+[3]
+[6]
+[2]
+[5]
+[9]
+[7]
+[4]
+[8]
+Constrain 0  ---  [(1, 3, 6, 2, 5, 9, 7, 4, 8)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  2
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  2
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 0.2941259099999999
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  1     Var--(0, 1)  =  3     Var--(0, 2)  =  6     Var--(0, 3)  =  2     Var--(0, 4)  =  5     Var--(0, 5)  =  9     Var--(0, 6)  =  7     Var--(0, 7)  =  4     Var--(0, 8)  =  8     Var--(1, 0)  =  7     Var--(1, 1)  =  2     Var--(1, 2)  =  5     Var--(1, 3)  =  4     Var--(1, 4)  =  1     Var--(1, 5)  =  8     Var--(1, 6)  =  9     Var--(1, 7)  =  3     Var--(1, 8)  =  6     Var--(2, 0)  =  4     Var--(2, 1)  =  8     Var--(2, 2)  =  9     Var--(2, 3)  =  3     Var--(2, 4)  =  6     Var--(2, 5)  =  7     Var--(2, 6)  =  1     Var--(2, 7)  =  5     Var--(2, 8)  =  2     Var--(3, 0)  =  3     Var--(3, 1)  =  6     Var--(3, 2)  =  4     Var--(3, 3)  =  7     Var--(3, 4)  =  8     Var--(3, 5)  =  5     Var--(3, 6)  =  2     Var--(3, 7)  =  1     Var--(3, 8)  =  9     Var--(4, 0)  =  5     Var--(4, 1)  =  1     Var--(4, 2)  =  8     Var--(4, 3)  =  6     Var--(4, 4)  =  9     Var--(4, 5)  =  2     Var--(4, 6)  =  3     Var--(4, 7)  =  7     Var--(4, 8)  =  4     Var--(5, 0)  =  9     Var--(5, 1)  =  7     Var--(5, 2)  =  2     Var--(5, 3)  =  1     Var--(5, 4)  =  3     Var--(5, 5)  =  4     Var--(5, 6)  =  6     Var--(5, 7)  =  8     Var--(5, 8)  =  5     Var--(6, 0)  =  2     Var--(6, 1)  =  4     Var--(6, 2)  =  1     Var--(6, 3)  =  5     Var--(6, 4)  =  7     Var--(6, 5)  =  6     Var--(6, 6)  =  8     Var--(6, 7)  =  9     Var--(6, 8)  =  3     Var--(7, 0)  =  8     Var--(7, 1)  =  5     Var--(7, 2)  =  3     Var--(7, 3)  =  9     Var--(7, 4)  =  2     Var--(7, 5)  =  1     Var--(7, 6)  =  4     Var--(7, 7)  =  6     Var--(7, 8)  =  7     Var--(8, 0)  =  6     Var--(8, 1)  =  9     Var--(8, 2)  =  7     Var--(8, 3)  =  8     Var--(8, 4)  =  4     Var--(8, 5)  =  3     Var--(8, 6)  =  5     Var--(8, 7)  =  2     Var--(8, 8)  =  1     
+bt_search finished
+Search made 32188 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[9]
+[2]
+[3]
+[8]
+[4]
+[6]
+[7]
+[1]
+[5]
+Constrain 0  ---  [(9, 2, 3, 8, 4, 6, 7, 1, 5)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  0
+Constrain 2  ---  0
+Constrain 3  ---  0
+Constrain 4  ---  0
+Constrain 5  ---  0
+Constrain 6  ---  0
+Constrain 7  ---  0
+Constrain 8  ---  0
+col finished...
+Constrain 0  ---  0
+Constrain 1  ---  0
+Constrain 2  ---  0
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSPsudoku_csp_all_diff_model unsolved. Has no solutions
+bt_search finished
+Search made 21 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[9]
+[2]
+[7]
+[4]
+[8]
+[6]
+[5]
+[1]
+[3]
+Constrain 0  ---  [(9, 2, 7, 4, 8, 6, 5, 1, 3)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  2
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  2
+Constrain 6  ---  1
+Constrain 7  ---  2
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  2
+Constrain 7  ---  2
+Constrain 8  ---  2
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 0.12266594000000008
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  9     Var--(0, 1)  =  2     Var--(0, 2)  =  7     Var--(0, 3)  =  4     Var--(0, 4)  =  8     Var--(0, 5)  =  6     Var--(0, 6)  =  5     Var--(0, 7)  =  1     Var--(0, 8)  =  3     Var--(1, 0)  =  1     Var--(1, 1)  =  4     Var--(1, 2)  =  5     Var--(1, 3)  =  3     Var--(1, 4)  =  9     Var--(1, 5)  =  2     Var--(1, 6)  =  6     Var--(1, 7)  =  8     Var--(1, 8)  =  7     Var--(2, 0)  =  8     Var--(2, 1)  =  6     Var--(2, 2)  =  3     Var--(2, 3)  =  7     Var--(2, 4)  =  1     Var--(2, 5)  =  5     Var--(2, 6)  =  4     Var--(2, 7)  =  2     Var--(2, 8)  =  9     Var--(3, 0)  =  2     Var--(3, 1)  =  8     Var--(3, 2)  =  6     Var--(3, 3)  =  5     Var--(3, 4)  =  4     Var--(3, 5)  =  9     Var--(3, 6)  =  3     Var--(3, 7)  =  7     Var--(3, 8)  =  1     Var--(4, 0)  =  7     Var--(4, 1)  =  9     Var--(4, 2)  =  1     Var--(4, 3)  =  8     Var--(4, 4)  =  6     Var--(4, 5)  =  3     Var--(4, 6)  =  2     Var--(4, 7)  =  4     Var--(4, 8)  =  5     Var--(5, 0)  =  3     Var--(5, 1)  =  5     Var--(5, 2)  =  4     Var--(5, 3)  =  1     Var--(5, 4)  =  2     Var--(5, 5)  =  7     Var--(5, 6)  =  8     Var--(5, 7)  =  9     Var--(5, 8)  =  6     Var--(6, 0)  =  6     Var--(6, 1)  =  1     Var--(6, 2)  =  2     Var--(6, 3)  =  9     Var--(6, 4)  =  3     Var--(6, 5)  =  8     Var--(6, 6)  =  7     Var--(6, 7)  =  5     Var--(6, 8)  =  4     Var--(7, 0)  =  5     Var--(7, 1)  =  3     Var--(7, 2)  =  9     Var--(7, 3)  =  2     Var--(7, 4)  =  7     Var--(7, 5)  =  4     Var--(7, 6)  =  1     Var--(7, 7)  =  6     Var--(7, 8)  =  8     Var--(8, 0)  =  4     Var--(8, 1)  =  7     Var--(8, 2)  =  8     Var--(8, 3)  =  6     Var--(8, 4)  =  5     Var--(8, 5)  =  1     Var--(8, 6)  =  9     Var--(8, 7)  =  3     Var--(8, 8)  =  2     
+bt_search finished
+Search made 13268 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[8]
+[4]
+[2]
+[1]
+[6]
+[5]
+[3]
+[9]
+[7]
+Constrain 0  ---  [(8, 4, 2, 1, 6, 5, 3, 9, 7)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  2
+Constrain 2  ---  1
+Constrain 3  ---  2
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  2
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  2
+Constrain 7  ---  2
+Constrain 8  ---  2
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 7.537092515
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  8     Var--(0, 1)  =  4     Var--(0, 2)  =  2     Var--(0, 3)  =  1     Var--(0, 4)  =  6     Var--(0, 5)  =  5     Var--(0, 6)  =  3     Var--(0, 7)  =  9     Var--(0, 8)  =  7     Var--(1, 0)  =  9     Var--(1, 1)  =  1     Var--(1, 2)  =  5     Var--(1, 3)  =  2     Var--(1, 4)  =  3     Var--(1, 5)  =  7     Var--(1, 6)  =  8     Var--(1, 7)  =  4     Var--(1, 8)  =  6     Var--(2, 0)  =  7     Var--(2, 1)  =  3     Var--(2, 2)  =  6     Var--(2, 3)  =  4     Var--(2, 4)  =  8     Var--(2, 5)  =  9     Var--(2, 6)  =  1     Var--(2, 7)  =  5     Var--(2, 8)  =  2     Var--(3, 0)  =  1     Var--(3, 1)  =  8     Var--(3, 2)  =  7     Var--(3, 3)  =  9     Var--(3, 4)  =  5     Var--(3, 5)  =  2     Var--(3, 6)  =  4     Var--(3, 7)  =  6     Var--(3, 8)  =  3     Var--(4, 0)  =  6     Var--(4, 1)  =  9     Var--(4, 2)  =  4     Var--(4, 3)  =  3     Var--(4, 4)  =  1     Var--(4, 5)  =  8     Var--(4, 6)  =  7     Var--(4, 7)  =  2     Var--(4, 8)  =  5     Var--(5, 0)  =  2     Var--(5, 1)  =  5     Var--(5, 2)  =  3     Var--(5, 3)  =  6     Var--(5, 4)  =  7     Var--(5, 5)  =  4     Var--(5, 6)  =  9     Var--(5, 7)  =  8     Var--(5, 8)  =  1     Var--(6, 0)  =  3     Var--(6, 1)  =  6     Var--(6, 2)  =  8     Var--(6, 3)  =  5     Var--(6, 4)  =  9     Var--(6, 5)  =  1     Var--(6, 6)  =  2     Var--(6, 7)  =  7     Var--(6, 8)  =  4     Var--(7, 0)  =  4     Var--(7, 1)  =  7     Var--(7, 2)  =  1     Var--(7, 3)  =  8     Var--(7, 4)  =  2     Var--(7, 5)  =  6     Var--(7, 6)  =  5     Var--(7, 7)  =  3     Var--(7, 8)  =  9     Var--(8, 0)  =  5     Var--(8, 1)  =  2     Var--(8, 2)  =  9     Var--(8, 3)  =  7     Var--(8, 4)  =  4     Var--(8, 5)  =  3     Var--(8, 6)  =  6     Var--(8, 7)  =  1     Var--(8, 8)  =  8     
+bt_search finished
+Search made 806579 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[3]
+[8]
+[6]
+[4]
+[1]
+[2]
+[7]
+[9]
+[5]
+Constrain 0  ---  [(3, 8, 6, 4, 1, 2, 7, 9, 5)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 0.02378386899999896
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  3     Var--(0, 1)  =  8     Var--(0, 2)  =  6     Var--(0, 3)  =  4     Var--(0, 4)  =  1     Var--(0, 5)  =  2     Var--(0, 6)  =  7     Var--(0, 7)  =  9     Var--(0, 8)  =  5     Var--(1, 0)  =  4     Var--(1, 1)  =  5     Var--(1, 2)  =  7     Var--(1, 3)  =  3     Var--(1, 4)  =  9     Var--(1, 5)  =  6     Var--(1, 6)  =  1     Var--(1, 7)  =  2     Var--(1, 8)  =  8     Var--(2, 0)  =  2     Var--(2, 1)  =  1     Var--(2, 2)  =  9     Var--(2, 3)  =  8     Var--(2, 4)  =  7     Var--(2, 5)  =  5     Var--(2, 6)  =  4     Var--(2, 7)  =  6     Var--(2, 8)  =  3     Var--(3, 0)  =  8     Var--(3, 1)  =  3     Var--(3, 2)  =  5     Var--(3, 3)  =  1     Var--(3, 4)  =  2     Var--(3, 5)  =  4     Var--(3, 6)  =  6     Var--(3, 7)  =  7     Var--(3, 8)  =  9     Var--(4, 0)  =  9     Var--(4, 1)  =  7     Var--(4, 2)  =  1     Var--(4, 3)  =  6     Var--(4, 4)  =  5     Var--(4, 5)  =  3     Var--(4, 6)  =  2     Var--(4, 7)  =  8     Var--(4, 8)  =  4     Var--(5, 0)  =  6     Var--(5, 1)  =  2     Var--(5, 2)  =  4     Var--(5, 3)  =  7     Var--(5, 4)  =  8     Var--(5, 5)  =  9     Var--(5, 6)  =  3     Var--(5, 7)  =  5     Var--(5, 8)  =  1     Var--(6, 0)  =  5     Var--(6, 1)  =  9     Var--(6, 2)  =  3     Var--(6, 3)  =  2     Var--(6, 4)  =  6     Var--(6, 5)  =  1     Var--(6, 6)  =  8     Var--(6, 7)  =  4     Var--(6, 8)  =  7     Var--(7, 0)  =  1     Var--(7, 1)  =  6     Var--(7, 2)  =  8     Var--(7, 3)  =  5     Var--(7, 4)  =  4     Var--(7, 5)  =  7     Var--(7, 6)  =  9     Var--(7, 7)  =  3     Var--(7, 8)  =  2     Var--(8, 0)  =  7     Var--(8, 1)  =  4     Var--(8, 2)  =  2     Var--(8, 3)  =  9     Var--(8, 4)  =  3     Var--(8, 5)  =  8     Var--(8, 6)  =  5     Var--(8, 7)  =  1     Var--(8, 8)  =  6     
+bt_search finished
+Search made 2326 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[2]
+[8]
+[1]
+[9]
+[6]
+[4]
+[3]
+[5]
+[7]
+Constrain 0  ---  [(2, 8, 1, 9, 6, 4, 3, 5, 7)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 0.19310716399999883
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  2     Var--(0, 1)  =  8     Var--(0, 2)  =  1     Var--(0, 3)  =  9     Var--(0, 4)  =  6     Var--(0, 5)  =  4     Var--(0, 6)  =  3     Var--(0, 7)  =  5     Var--(0, 8)  =  7     Var--(1, 0)  =  3     Var--(1, 1)  =  4     Var--(1, 2)  =  7     Var--(1, 3)  =  5     Var--(1, 4)  =  1     Var--(1, 5)  =  2     Var--(1, 6)  =  8     Var--(1, 7)  =  6     Var--(1, 8)  =  9     Var--(2, 0)  =  6     Var--(2, 1)  =  9     Var--(2, 2)  =  5     Var--(2, 3)  =  7     Var--(2, 4)  =  3     Var--(2, 5)  =  8     Var--(2, 6)  =  4     Var--(2, 7)  =  1     Var--(2, 8)  =  2     Var--(3, 0)  =  9     Var--(3, 1)  =  3     Var--(3, 2)  =  6     Var--(3, 3)  =  2     Var--(3, 4)  =  8     Var--(3, 5)  =  7     Var--(3, 6)  =  1     Var--(3, 7)  =  4     Var--(3, 8)  =  5     Var--(4, 0)  =  7     Var--(4, 1)  =  5     Var--(4, 2)  =  8     Var--(4, 3)  =  1     Var--(4, 4)  =  4     Var--(4, 5)  =  3     Var--(4, 6)  =  2     Var--(4, 7)  =  9     Var--(4, 8)  =  6     Var--(5, 0)  =  4     Var--(5, 1)  =  1     Var--(5, 2)  =  2     Var--(5, 3)  =  6     Var--(5, 4)  =  5     Var--(5, 5)  =  9     Var--(5, 6)  =  7     Var--(5, 7)  =  3     Var--(5, 8)  =  8     Var--(6, 0)  =  8     Var--(6, 1)  =  7     Var--(6, 2)  =  3     Var--(6, 3)  =  4     Var--(6, 4)  =  9     Var--(6, 5)  =  5     Var--(6, 6)  =  6     Var--(6, 7)  =  2     Var--(6, 8)  =  1     Var--(7, 0)  =  5     Var--(7, 1)  =  6     Var--(7, 2)  =  4     Var--(7, 3)  =  8     Var--(7, 4)  =  2     Var--(7, 5)  =  1     Var--(7, 6)  =  9     Var--(7, 7)  =  7     Var--(7, 8)  =  3     Var--(8, 0)  =  1     Var--(8, 1)  =  2     Var--(8, 2)  =  9     Var--(8, 3)  =  3     Var--(8, 4)  =  7     Var--(8, 5)  =  6     Var--(8, 6)  =  5     Var--(8, 7)  =  8     Var--(8, 8)  =  4     
+bt_search finished
+Search made 20801 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[9]
+[2]
+[4]
+[1]
+[5]
+[6]
+[3]
+[8]
+[7]
+Constrain 0  ---  [(9, 2, 4, 1, 5, 6, 3, 8, 7)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  2
+Constrain 4  ---  1
+Constrain 5  ---  2
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  4
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 0.09276104500000137
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  9     Var--(0, 1)  =  2     Var--(0, 2)  =  4     Var--(0, 3)  =  1     Var--(0, 4)  =  5     Var--(0, 5)  =  6     Var--(0, 6)  =  3     Var--(0, 7)  =  8     Var--(0, 8)  =  7     Var--(1, 0)  =  7     Var--(1, 1)  =  6     Var--(1, 2)  =  8     Var--(1, 3)  =  2     Var--(1, 4)  =  4     Var--(1, 5)  =  3     Var--(1, 6)  =  5     Var--(1, 7)  =  1     Var--(1, 8)  =  9     Var--(2, 0)  =  5     Var--(2, 1)  =  1     Var--(2, 2)  =  3     Var--(2, 3)  =  7     Var--(2, 4)  =  8     Var--(2, 5)  =  9     Var--(2, 6)  =  2     Var--(2, 7)  =  6     Var--(2, 8)  =  4     Var--(3, 0)  =  3     Var--(3, 1)  =  4     Var--(3, 2)  =  9     Var--(3, 3)  =  5     Var--(3, 4)  =  6     Var--(3, 5)  =  2     Var--(3, 6)  =  1     Var--(3, 7)  =  7     Var--(3, 8)  =  8     Var--(4, 0)  =  1     Var--(4, 1)  =  5     Var--(4, 2)  =  6     Var--(4, 3)  =  3     Var--(4, 4)  =  7     Var--(4, 5)  =  8     Var--(4, 6)  =  4     Var--(4, 7)  =  9     Var--(4, 8)  =  2     Var--(5, 0)  =  8     Var--(5, 1)  =  7     Var--(5, 2)  =  2     Var--(5, 3)  =  4     Var--(5, 4)  =  9     Var--(5, 5)  =  1     Var--(5, 6)  =  6     Var--(5, 7)  =  3     Var--(5, 8)  =  5     Var--(6, 0)  =  6     Var--(6, 1)  =  9     Var--(6, 2)  =  5     Var--(6, 3)  =  8     Var--(6, 4)  =  1     Var--(6, 5)  =  4     Var--(6, 6)  =  7     Var--(6, 7)  =  2     Var--(6, 8)  =  3     Var--(7, 0)  =  2     Var--(7, 1)  =  8     Var--(7, 2)  =  7     Var--(7, 3)  =  6     Var--(7, 4)  =  3     Var--(7, 5)  =  5     Var--(7, 6)  =  9     Var--(7, 7)  =  4     Var--(7, 8)  =  1     Var--(8, 0)  =  4     Var--(8, 1)  =  3     Var--(8, 2)  =  1     Var--(8, 3)  =  9     Var--(8, 4)  =  2     Var--(8, 5)  =  7     Var--(8, 6)  =  8     Var--(8, 7)  =  5     Var--(8, 8)  =  6     
+bt_search finished
+Search made 9824 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[9]
+[3]
+[7]
+[6]
+[4]
+[8]
+[5]
+[1]
+[2]
+Constrain 0  ---  [(9, 3, 7, 6, 4, 8, 5, 1, 2)]
+row finished...
+Constrain 0  ---  2
+Constrain 1  ---  1
+Constrain 2  ---  2
+Constrain 3  ---  1
+Constrain 4  ---  2
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  2
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  4
+Constrain 7  ---  2
+Constrain 8  ---  2
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 8.046823929
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  9     Var--(0, 1)  =  3     Var--(0, 2)  =  7     Var--(0, 3)  =  6     Var--(0, 4)  =  4     Var--(0, 5)  =  8     Var--(0, 6)  =  5     Var--(0, 7)  =  1     Var--(0, 8)  =  2     Var--(1, 0)  =  2     Var--(1, 1)  =  5     Var--(1, 2)  =  8     Var--(1, 3)  =  3     Var--(1, 4)  =  7     Var--(1, 5)  =  1     Var--(1, 6)  =  4     Var--(1, 7)  =  6     Var--(1, 8)  =  9     Var--(2, 0)  =  4     Var--(2, 1)  =  6     Var--(2, 2)  =  1     Var--(2, 3)  =  2     Var--(2, 4)  =  5     Var--(2, 5)  =  9     Var--(2, 6)  =  3     Var--(2, 7)  =  7     Var--(2, 8)  =  8     Var--(3, 0)  =  1     Var--(3, 1)  =  2     Var--(3, 2)  =  3     Var--(3, 3)  =  7     Var--(3, 4)  =  6     Var--(3, 5)  =  4     Var--(3, 6)  =  8     Var--(3, 7)  =  9     Var--(3, 8)  =  5     Var--(4, 0)  =  5     Var--(4, 1)  =  4     Var--(4, 2)  =  9     Var--(4, 3)  =  8     Var--(4, 4)  =  1     Var--(4, 5)  =  3     Var--(4, 6)  =  7     Var--(4, 7)  =  2     Var--(4, 8)  =  6     Var--(5, 0)  =  7     Var--(5, 1)  =  8     Var--(5, 2)  =  6     Var--(5, 3)  =  5     Var--(5, 4)  =  9     Var--(5, 5)  =  2     Var--(5, 6)  =  1     Var--(5, 7)  =  3     Var--(5, 8)  =  4     Var--(6, 0)  =  6     Var--(6, 1)  =  9     Var--(6, 2)  =  5     Var--(6, 3)  =  4     Var--(6, 4)  =  3     Var--(6, 5)  =  7     Var--(6, 6)  =  2     Var--(6, 7)  =  8     Var--(6, 8)  =  1     Var--(7, 0)  =  8     Var--(7, 1)  =  7     Var--(7, 2)  =  4     Var--(7, 3)  =  1     Var--(7, 4)  =  2     Var--(7, 5)  =  6     Var--(7, 6)  =  9     Var--(7, 7)  =  5     Var--(7, 8)  =  3     Var--(8, 0)  =  3     Var--(8, 1)  =  1     Var--(8, 2)  =  2     Var--(8, 3)  =  9     Var--(8, 4)  =  8     Var--(8, 5)  =  5     Var--(8, 6)  =  6     Var--(8, 7)  =  4     Var--(8, 8)  =  7     
+bt_search finished
+Search made 854035 variable assignments and pruned 0 variable values
+=======================================================
+Using Model binary
+ban var finished...
+cosntruct var finished...
+[3]
+[5]
+[2]
+[4]
+[6]
+[9]
+[7]
+[8]
+[1]
+Constrain 0  ---  [(3, 5, 2, 4, 6, 9, 7, 8, 1)]
+row finished...
+Constrain 0  ---  1
+Constrain 1  ---  2
+Constrain 2  ---  1
+Constrain 3  ---  2
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  1
+Constrain 7  ---  1
+Constrain 8  ---  1
+col finished...
+Constrain 0  ---  1
+Constrain 1  ---  1
+Constrain 2  ---  1
+Constrain 3  ---  1
+Constrain 4  ---  1
+Constrain 5  ---  1
+Constrain 6  ---  2
+Constrain 7  ---  2
+Constrain 8  ---  1
+sqr finished...
+all done...
+=======================================================
+BT
+CSP sudoku_csp_all_diff_model solved. CPU Time used = 1.143981287999999
+CSP sudoku_csp_all_diff_model  Assignments = 
+Var--(0, 0)  =  3     Var--(0, 1)  =  5     Var--(0, 2)  =  2     Var--(0, 3)  =  4     Var--(0, 4)  =  6     Var--(0, 5)  =  9     Var--(0, 6)  =  7     Var--(0, 7)  =  8     Var--(0, 8)  =  1     Var--(1, 0)  =  4     Var--(1, 1)  =  6     Var--(1, 2)  =  8     Var--(1, 3)  =  5     Var--(1, 4)  =  7     Var--(1, 5)  =  1     Var--(1, 6)  =  3     Var--(1, 7)  =  9     Var--(1, 8)  =  2     Var--(2, 0)  =  1     Var--(2, 1)  =  7     Var--(2, 2)  =  9     Var--(2, 3)  =  8     Var--(2, 4)  =  2     Var--(2, 5)  =  3     Var--(2, 6)  =  4     Var--(2, 7)  =  5     Var--(2, 8)  =  6     Var--(3, 0)  =  9     Var--(3, 1)  =  8     Var--(3, 2)  =  7     Var--(3, 3)  =  3     Var--(3, 4)  =  1     Var--(3, 5)  =  2     Var--(3, 6)  =  5     Var--(3, 7)  =  6     Var--(3, 8)  =  4     Var--(4, 0)  =  2     Var--(4, 1)  =  4     Var--(4, 2)  =  1     Var--(4, 3)  =  9     Var--(4, 4)  =  5     Var--(4, 5)  =  6     Var--(4, 6)  =  8     Var--(4, 7)  =  7     Var--(4, 8)  =  3     Var--(5, 0)  =  5     Var--(5, 1)  =  3     Var--(5, 2)  =  6     Var--(5, 3)  =  7     Var--(5, 4)  =  4     Var--(5, 5)  =  8     Var--(5, 6)  =  1     Var--(5, 7)  =  2     Var--(5, 8)  =  9     Var--(6, 0)  =  8     Var--(6, 1)  =  2     Var--(6, 2)  =  4     Var--(6, 3)  =  6     Var--(6, 4)  =  3     Var--(6, 5)  =  5     Var--(6, 6)  =  9     Var--(6, 7)  =  1     Var--(6, 8)  =  7     Var--(7, 0)  =  7     Var--(7, 1)  =  1     Var--(7, 2)  =  5     Var--(7, 3)  =  2     Var--(7, 4)  =  9     Var--(7, 5)  =  4     Var--(7, 6)  =  6     Var--(7, 7)  =  3     Var--(7, 8)  =  8     Var--(8, 0)  =  6     Var--(8, 1)  =  9     Var--(8, 2)  =  3     Var--(8, 3)  =  1     Var--(8, 4)  =  8     Var--(8, 5)  =  7     Var--(8, 6)  =  2     Var--(8, 7)  =  4     Var--(8, 8)  =  5     
+bt_search finished
+Search made 124252 variable assignments and pruned 0 variable values
+=======================================================
+ 

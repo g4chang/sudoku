@@ -304,7 +304,7 @@ def sudoku_csp_all_diff_model(initial_sudoku_board):
         cons.append(con)
     print("sqr finished...")   
     #construct CSP  
-    sudoku_csp = CSP("sudoku_mod2", vars)
+    sudoku_csp = CSP("sudoku_csp_all_diff_model", vars)
     for c in cons:
         sudoku_csp.add_constraint(c)
     variable_array = []
